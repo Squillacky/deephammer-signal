@@ -1,0 +1,110 @@
+{
+  "video_id": "7sk3qmIQZnI",
+  "title": "the $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the Truth.",
+  "views": 0,
+  "model": "claude-sonnet-4-20250514",
+  "tokens_in": 4664,
+  "tokens_out": 892,
+  "elapsed_seconds": 18.1,
+  "analysis": {
+    "hook_anatomy": {
+      "first_5_seconds": "Amazon is not cutting 30,000 jobs because they have too many managers, whatever they may say. They're cutting 30,000 jobs because they need the money to buy GPUs.",
+      "hook_type": "bold_claim",
+      "hook_strength": 9,
+      "emotional_trigger": "Skepticism and revelation - challenging official narrative with insider knowledge"
+    },
+    "narrative_structure": {
+      "framework": "investigation",
+      "act_breakdown": [
+        {
+          "act": 1,
+          "description": "Challenge official narrative and present shocking claim",
+          "timestamp_approx": "0:00-1:30"
+        },
+        {
+          "act": 2,
+          "description": "Present contradictory evidence - strong earnings vs massive layoffs",
+          "timestamp_approx": "1:30-4:00"
+        },
+        {
+          "act": 3,
+          "description": "Deep dive into financial analysis - cash flow crisis revealed",
+          "timestamp_approx": "4:00-8:00"
+        },
+        {
+          "act": 4,
+          "description": "Deconstruct CEO's culture narrative and reveal true motivations",
+          "timestamp_approx": "8:00-12:00"
+        },
+        {
+          "act": 5,
+          "description": "Zoom out to industry-wide implications and future predictions",
+          "timestamp_approx": "12:00-16:00"
+        }
+      ],
+      "tension_peaks": [
+        "Free cash flow went negative",
+        "94% of operating cash flows consumed",
+        "Human capital vs compute capital"
+      ],
+      "payoff_delivery": "Complete reframe of layoffs as capital reallocation, not culture problem"
+    },
+    "rhetorical_devices": [
+      {
+        "device": "juxtaposition",
+        "example": "Revenue hit $180 billion... And then they fired 30,000 people",
+        "frequency": "high"
+      },
+      {
+        "device": "mathematical proof",
+        "example": "30,000 employees times $200,000 equals roughly $6 billion",
+        "frequency": "high"
+      },
+      {
+        "device": "metaphor",
+        "example": "Human headcount is being converted to compute capacity. Salaries are being transformed into silicon",
+        "frequency": "medium"
+      },
+      {
+        "device": "historical comparison",
+        "example": "Bigger than the moon race, bigger than the atom bomb",
+        "frequency": "medium"
+      }
+    ],
+    "virality_factors": {
+      "shareability_score": 9,
+      "controversy_level": 8,
+      "information_density": 10,
+      "emotional_arc": "Skepticism \u2192 Revelation \u2192 Concern \u2192 Pragmatic acceptance",
+      "target_audience": "Tech workers, investors, business analysts",
+      "click_triggers": [
+        "$125 billion secret",
+        "Amazon lied",
+        "Wall Street vs employees",
+        "Hidden truth"
+      ]
+    },
+    "content_patterns": {
+      "primary_topic": "Amazon layoffs financial analysis",
+      "secondary_topics": [
+        "AI infrastructure spending",
+        "Corporate communication",
+        "Tech industry transformation",
+        "Capital allocation"
+      ],
+      "expertise_signals": [
+        "Insider knowledge as ex-Amazon employee",
+        "Detailed financial analysis",
+        "Industry-wide context"
+      ],
+      "unique_angle": "Financial detective work exposing gap between official narrative and balance sheet reality"
+    },
+    "key_quotes": [
+      "Human headcount is being converted to compute capacity",
+      "This is not a layoff. This is a capital reallocation",
+      "You're not being replaced by an AI really, you're being replaced by the need to buy GPUs",
+      "Human capital is at risk when it competes with compute capital"
+    ],
+    "one_line_summary": "Amazon's 30,000 layoffs aren't about culture or efficiency\u2014they're about converting human salaries into AI infrastructure spending as free cash flow turns negative."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-02-16T00:52:54.181266+00:00",
+  "phase": "4_synthesis",
+  "source_videos": 5,
+  "usage": {
+    "input_tokens": 6196,
+    "output_tokens": 989,
+    "total_tokens": 7185,
+    "model": "claude-sonnet-4-20250514",
+    "cost_estimate": 0.0334
+  },
+  "creator_blueprint": {
+    "creator_identity": {
+      "archetype": "Tech industry financial detective and future-of-work analyst",
+      "core_value_proposition": "Exposes hidden financial truths behind tech industry narratives using insider knowledge and rigorous analysis",
+      "authority_signals": [
+        "Ex-Amazon employee insider knowledge",
+        "Detailed financial analysis with specific metrics",
+        "Technical product expertise",
+        "Enterprise case studies",
+        "Industry-wide context and predictions"
+      ]
+    },
+    "hook_formula": {
+      "pattern": "Massive dollar figure + contradictory claim that challenges official narrative + insider revelation",
+      "elements": [
+        "Specific dollar amounts ($125B, $285B)",
+        "Time urgency (72 hours, 10 days)",
+        "Record-breaking claims",
+        "Contradiction between public story and hidden truth",
+        "Insider access angle"
+      ],
+      "avg_strength": 8.8,
+      "opening_word_count_sweet_spot": "25-35 words"
+    },
+    "narrative_engine": {
+      "dominant_framework": "Investigation",
+      "framework_distribution": {
+        "investigation": 80,
+        "problem_solution": 20
+      },
+      "structural_beats": [
+        "Shocking claim/mystery setup",
+        "Surface-level evidence gathering",
+        "Deep financial/technical analysis",
+        "Contradiction revelation",
+        "Broader industry implications",
+        "Personal/practical action framework"
+      ],
+      "tension_mechanics": "Escalating contradiction between official narrative and data evidence, punctuated by specific financial revelations and technical breakthroughs"
+    },
+    "virality_mechanics": {
+      "shareability_drivers": [
+        "Massive financial figures that shock",
+        "Insider knowledge that feels exclusive",
+        "Career/investment implications for audience",
+        "Debunking official corporate narratives"
+      ],
+      "information_density_strategy": "Layer technical specificity with concrete examples and case studies while maintaining investigative narrative flow",
+      "avg_shareability": 8.0,
+      "avg_information_density": 9.2,
+      "audience_trigger": "Professional anxiety combined with insider knowledge advantage"
+    },
+    "content_dna": {
+      "topic_selection_pattern": "Major tech company moves where official explanation doesn't match financial reality or technical capabilities",
+      "research_depth_signal": "Specific financial metrics, insider examples, technical specifications, and enterprise case studies",
+      "differentiator": "Financial detective work connecting macro market movements to individual career implications",
+      "content_moat": "Combination of insider tech industry experience with financial analysis skills and rapid technical understanding"
+    },
+    "replication_playbook": {
+      "title_formula": "[Dollar Amount] + [Secret/Truth/Crash] + [Authority Challenge] + [Promise of Inside Information]",
+      "thumbnail_implications": "Should emphasize massive dollar figures, company logos, and visual contradiction elements",
+      "ideal_video_length": "18-25 minutes for full investigative development",
+      "topic_criteria": [
+        "Major tech company announcement with questionable narrative",
+        "Significant financial implications",
+        "Insider perspective available",
+        "Affects audience careers/investments",
+        "Technical breakthrough with business implications"
+      ],
+      "production_notes": [
+        "Front-load most shocking claim in first 10 seconds",
+        "Use mathematical proof and specific metrics throughout",
+        "Include real enterprise examples",
+        "End with practical implications for individual viewers",
+        "Maintain investigative pacing with tension peaks every 3-4 minutes"
+      ]
+    },
+    "strategic_recommendations": [
+      "Develop insider network across major tech companies for contradictory information gathering",
+      "Build financial analysis workflow to rapidly decode earnings reports and cash flow statements",
+      "Create content calendar around major tech earnings calls and product launches",
+      "Establish expertise in AI infrastructure economics and enterprise software business models",
+      "Develop personal action frameworks that connect macro trends to individual career decisions"
+    ]
+  },
+  "meta": {
+    "videos_analyzed": 5,
+    "total_outlier_views": 1284965,
+    "channel_total_views": 9008391,
+    "outlier_share_of_views": "14.3%",
+    "synthesis_confidence": "high - strong pattern consistency across all 5 outliers with clear hook formula, narrative structure, and content positioning"
+  }
+}

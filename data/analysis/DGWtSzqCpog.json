@@ -1,0 +1,114 @@
+{
+  "video_id": "DGWtSzqCpog",
+  "title": "The $285 Billion Crash Wall Street Won't Explain Honestly. Here's What Everyone Missed.",
+  "views": 0,
+  "model": "claude-sonnet-4-20250514",
+  "tokens_in": 5716,
+  "tokens_out": 912,
+  "elapsed_seconds": 19.4,
+  "analysis": {
+    "hook_anatomy": {
+      "first_5_seconds": "A 200 line prompt just killed $285,000,000,000 in market value.",
+      "hook_type": "bold_claim",
+      "hook_strength": 9,
+      "emotional_trigger": "shock and disbelief at massive financial destruction from something seemingly trivial"
+    },
+    "narrative_structure": {
+      "framework": "investigation",
+      "act_breakdown": [
+        {
+          "act": 1,
+          "description": "The shocking claim - markdown file crashes $285B in value",
+          "timestamp_approx": "0:00-2:00"
+        },
+        {
+          "act": 2,
+          "description": "Investigation reveals the real cause - structural SaaS pricing model failure",
+          "timestamp_approx": "2:00-8:00"
+        },
+        {
+          "act": 3,
+          "description": "Counter-arguments and market incoherence analysis",
+          "timestamp_approx": "8:00-12:00"
+        },
+        {
+          "act": 4,
+          "description": "Real-world evidence through KPMG case study",
+          "timestamp_approx": "12:00-16:00"
+        },
+        {
+          "act": 5,
+          "description": "The survival path for companies and individuals",
+          "timestamp_approx": "16:00-end"
+        }
+      ],
+      "tension_peaks": [
+        "$285 billion crash revelation",
+        "Per-seat pricing model death",
+        "KPMG negotiation precedent",
+        "Individual career implications"
+      ],
+      "payoff_delivery": "Personal action framework connecting market dynamics to individual workflow transformation"
+    },
+    "rhetorical_devices": [
+      {
+        "device": "hyperbole",
+        "example": "$285,000,000,000 in market value",
+        "frequency": "high"
+      },
+      {
+        "device": "metaphor",
+        "example": "like a crack through an iceberg",
+        "frequency": "medium"
+      },
+      {
+        "device": "repetition",
+        "example": "per seat",
+        "frequency": "high"
+      },
+      {
+        "device": "rhetorical_questions",
+        "example": "Why did it move $285,000,000,000?",
+        "frequency": "medium"
+      },
+      {
+        "device": "contrast",
+        "example": "Not a product, not a platform. A markdown file",
+        "frequency": "high"
+      }
+    ],
+    "virality_factors": {
+      "shareability_score": 8,
+      "controversy_level": 7,
+      "information_density": 9,
+      "emotional_arc": "shock to investigation to empowerment",
+      "target_audience": "knowledge workers, tech professionals, investors",
+      "click_triggers": [
+        "massive dollar amounts",
+        "Wall Street conspiracy angle",
+        "career survival urgency"
+      ]
+    },
+    "content_patterns": {
+      "primary_topic": "AI disruption of enterprise software business models",
+      "secondary_topics": [
+        "stock market analysis",
+        "pricing model evolution",
+        "career adaptation strategies"
+      ],
+      "expertise_signals": [
+        "specific financial data",
+        "insider company examples",
+        "technical product knowledge"
+      ],
+      "unique_angle": "Connecting macro market crash to individual workflow transformation necessity"
+    },
+    "key_quotes": [
+      "A 200 line prompt just killed $285,000,000,000 in market value",
+      "The per seat SaaS licensing model, the financial bedrock that the entire enterprise software economy has been built on for twenty years, it was already cracking",
+      "AI doesn't replace software. AI runs on software",
+      "The gap between I use AI tools and I've rethought how I work around extremely rapidly evolving AI capabilities is all of our individual versions of what happened in the SaaS market"
+    ],
+    "one_line_summary": "A simple AI plugin crashed $285 billion in software stocks by exposing the structural failure of per-seat pricing models, forcing both companies and individuals to fundamentally rethink their approach to AI or risk obsolescence."
+  }
+}

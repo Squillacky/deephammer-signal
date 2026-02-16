@@ -1,0 +1,367 @@
+{
+  "video_id": "DGWtSzqCpog",
+  "title": "The $285 Billion Crash Wall Street Won't Explain Honestly. Here's What Everyone Missed.",
+  "views": 0,
+  "sigma": 0,
+  "transcript": "A 200 line prompt just killed $285,000,000,000 in market value. That's right. A markdown file, not a product, not a platform. A markdown file from some product manager at Anthropic erased $285,000,000,000 in market cap on the stock market in just forty eight hours. On January 30, Anthropic released a set of plugins for Claude CoWork, its desktop AI tool. One of them handles legal contract review. It can triage NDAs, it can flag nonstandard clauses against a negotiation playbook and generate a ton of compliance summaries, the kind of work that until last week required a paralegal. Maybe a Westlaw subscription, something that had to do with billable hours. Right? The plugin is open source. Anyone can read it. And when people did, they found roughly 200 lines of structured markdown prompts. First year law school content dressed up with some clever workflow logic. It's basically a fancy prompt. It shipped with a little disclaimer. All output should be reviewed by licensed attorneys. I'll bet. By Monday morning, Thomson Reuters had posted its biggest single day stock decline on record. It's down 16%. RELX, the parent company of LexisNexis, fell 14%. LegalZoom cratered at 20%. You get the idea. The selling spread to private equity from there. Ares management, KKR, and TPG all dropped about 10%. If AI compresses the cost of legal and financial analysis, then every firm charging premium fees for that analysis has a big, big margin problem because they can't charge that much, not next year and maybe not now. But here's what almost nobody is saying clearly enough. The markdown file itself is not the cause. It just revealed what has been going on for a while. The per seat SaaS licensing model, the financial bedrock that the entire enterprise software economy has been built on for twenty years, it was already cracking. The market just hadn't priced it in yet because, frankly, Wall Street doesn't understand AI that well. So this crash wasn't really about Claude, and we should be precise about what actually happened because the narrative has already crystallized into Anthropic crashed the software market. And that framing, while it's fun for headlines, misses the real structural story. What Anthropic actually shipped was a set of open source starter plugins, basically templates that any company can customize for their own workflows very easily. The legal plugin was one of 11. It was very competent, but it's not by itself revolutionary. Any decent prompt engineer could have assembled something comparable in an afternoon. So why did it move $285,000,000,000? Because the plug in made visible what the market has been quietly worrying about for months. If a text file can approximate the core workflow of a $60,000,000,000 revenue legal information industry, then that whole pricing model that the industry is built on has a big structural problem. Not a competitive problem, not a better product problem, a structural problem, the kind that doesn't get solved by shipping faster or hiring better salespeople. Thomson Reuters charges per seat. LexisNexis charges per seat. Westlaw charges per seat. The entire enterprise software economy from Salesforce to ServiceNow to Adobe runs on a model that says every human who touches this tool must pay a license fee. That's how these companies make their money. That's how they forecast their revenue. That's how Wall Street values them. That model works when humans are the bottleneck. It breaks when AI agents can do the work without logging in. And the signals were already everywhere if you knew where to look. The software industry's average forward price to earnings ratio has been compressing for months from x eight months ago to about x right when the sell off hit. That is the largest four month valuation compression since the 2002.com bust. Earning season has already been ugly. Software companies are missing revenue estimates at rates not seen since the post COVID correction. And broader tech continues to beat. The AI companies are fine. Right? The per seat model was under pressure before Anthropic shipped this little prompt file. So the cloud plug in, it didn't start the fire. It just showed everyone the building was already burning. Now I gotta be honest, plenty of smart people think that this sell off is a big overreaction. And they might be right about the sell off, but they would be wrong about what it means. Jensen Huang, speaking at the Cisco AI summit a few days before the crash, offered the strongest version of the counterargument. This notion that the software industry is in decline and being replaced by AI is the most illogical thing in the world, he said. And do you know why? Huang's argument is very simple. AI doesn't replace software. AI runs on software. The more AI agents you deploy, the more software infrastructure you need. More databases, more APIs, more middleware, etcetera. So every AI agent that replaces a paralegal still needs Westlaw's data. It still needs a CRM. It still needs document management. If anything, AI should increase the total amount of software the economy uses. Jensen's not wrong. He's also not making the argument he thinks he's making. Nobody serious is arguing that the world needs less software. The argument is that the world no longer needs to pay for software the way it currently pays for software. So Jensen is defending the product, and he's right to do so. The market is attacking the pricing model. Those are very different things and confusing them is how incumbents lose transitions they should have survived. Print media made this same mistake. Newspapers had content people wanted. They had local information, investigative journalism, weather. The Internet didn't make that content worthless. What the Internet did was destroy the access model, the idea that you had to buy a whole newspaper to get the one section you cared about, and that advertisers would pay premium rates to reach readers with no alternative. The content actually survived. The business model didn't, and that's why so many newspapers are in trouble. Print media's content did eventually get commoditized. Anybody can publish now. Software's content like proprietary databases, like structured workflows, decades of accumulated enterprise data, that hasn't been commoditized and it actually probably won't be. Thompson Reuters case law database isn't something a startup vibe codes in a weekend. Salesforce's customer relationship data is irreplaceable for many of their clients. Adobe's creative tool ecosystem has a pretty deep moat. So the data is safe, but the per seat access model for that data is not. And the companies whose entire financial identity is built around per seat licensing, they're about to face the hardest strategic question in enterprise software. How do you reprice your most valuable assets without destroying your revenue in the transition? Bank of America's Vivek Arya published the most revealing analysis of the crash. He called the sell off internally inconsistent, and he's right in a way that tells you something important about where the market's head is at right now on software and on AI. Investors were simultaneously running two thesis. Thesis one, AI infrastructure spending is unsustainable and the CapEx boom will collapse. This is two, AI adoption will be so powerful that it renders established software business models obsolete. Both cannot be true. If AI is powerful enough to crash $285,000,000,000 in software market cap, the infrastructure required to run that AI is underbuilt, not overbuilt. The SaaS pocalypse is paradoxically the strongest possible demand signal for continued AI infrastructure investment. And yet, both trades were profitable in different hands at different moments. The deep seek sell off punished NVIDIA last year. The SaaS correction punished Salesforce at almost the same time this year. Wall Street does not resolve logical contradictions. It rotates between them. One week, the market prices in an AI winter. The next, it prices in an AI revolution so total that legacy software can't survive it. The contradiction persists because no single firm needs to hold both positions. The market as a whole holds them, and the market as a whole has no obligation to be coherent. The incoherence is the real story, not the crash, the incoherence. But this is not really a story about stocks. It's bigger. While everyone was watching Thomson Reuters stock price, a quieter story broke that almost no one paid attention to, and that tells you about where we're all headed more than any given stock chart. KPMG, one of the big four accounting firms, pressured Grant Thornton UK, which is its own auditor, yes, the big four have to have auditors, to cut their audit fees. The demand was to pass on cost savings from AI. Grant Thornton initially resisted arguing that, quote, high quality audits rely heavily on expert human judgment and that fees reflect the cost of people. PMG's response per the Financial Times, lower your prices or we'll find a new auditor, and Grant Thornton blinked. PPMG's international audit fees dropped from $416,000 in 2024 to just $357,000 in 2025. They got a 14% discount. And that story matters to me more than Thomson Reuters' stock price, and I wanna tell you why. The SaaS pocalypse was just a market event. Traders were repricing stocks based on a change view of the future. They do that all the time. The KPMG negotiation is an operating event, a real company using AI as a lever in a real business negotiation to extract a real price reduction from a real from a real counterparty. The stock market repricing, that could reverse tomorrow. The KPMG precedent won't. Think about what KPMG actually did. They didn't automate their audit. They didn't replace Grant Thornton with AI. They used the existence of AI. The fact that everyone now know these now knows these tasks can be done more cheaply as a negotiating weapon. The threat isn't we'll replace you with AI. The threat is we both know AI changes the economics. So your old prices, they're not justified anymore. That's the playbook, and it works in every knowledge work fee negotiation now. If audit fees get renegotiated on the basis of AI cost savings, legal fees can be next, then consulting fees, then implementation fees, then design fees, then every form of pro services billing that currently scales only with the number of humans touching the work. You cannot use that scaling assumption. Lean teams are the future. The cascade doesn't require anyone to actually deploy AI at scale. It just requires buyers to point at that SaaS pocalypse and say, we know the world changed. So let's talk about your assumption that the work is done per human, and let's talk about your rates. The big four are a sign of things to come. When they talk about not automating their own work, but just negotiating down the cost of services, that is a big operating mechanism that is going to shake the industry. It's not really the markdown files. It's fee negotiation leverage spreading like wildfires through the professional services economy like a crack through an iceberg. All of those assumptions that humans have to do the work are shattering. The software did not die. The data systems underneath enterprise software, Thomson Reuters case law databases, Salesforce's customer graphs, SAP's resource planning log SAP's resource planning logic, Adobe's creative workflow ecosystem, those all represent decades of accumulated structured proprietary information that no markdown file comes close to replacing. Those data systems will continue to exist. They must. The economy runs on them. And there's a second edge that the market panic has really overlooked, the single ringable neck. Enterprises don't just buy Salesforce because it's the best possible CRM. You can make the case for a lot of other software that's better. They buy Salesforce because when something goes wrong at 2AM on the night before the board meeting, there's a phone number to call and a contract that says somebody is accountable. That accountability layer, the vendor relationship, the SLA, the legal liability, the pro services team that shows up when the system breaks, that is enormously valuable to big organizations, and no amount of AgenTic AI eliminates the need for it. If anything, the complexity of AI driven workflows makes that accountability even more important, not less. So the data edge is real. The accountability edge is real. What died is the pricing model that sits over the top. The idea that you can charge every human who touches the software a nice convenient fat per seat license fee and that your revenue scales linearly with that headcount. If one AI agent can do the research that previously required 10 paralegals with 10 separate Westlaw logins, Thomson Reuters doesn't lose the value of their data. They lose nine seats of revenue. The data becomes actually more important in an AI driven world. It's the fuel the agents run on, but the proceed access model, that's just broken. Here's what the investor thesis actually comes down to. The markdown file represents an existential threat if and only if these SaaS companies run business as usual. If they just bolt AI features on top of their existing UI, if they just add a chatbot, then the market's right. They're dead. The market is right to reprice them. The survival path is actually fundamentally different, and it's the one Thomson Reuters ironically is attempting with co counsel to pivot from a one size fits all interface that humans navigate to an agentic first architecture that AI agents navigate and charge for the value of the data and the accountability rather than the number of humans logging in. That's not a feature update. That's a rebuild of the product, the pricing, and the go to market. Simultaneously, while your stock price is cratering. Whether the incumbents pull it off is a $285,000,000,000 question, literally. They have the data edge. They have the ringable neck edge, and those are real. But pivoting from UI first to AgenTek first is the kind of architectural transformation that does tend to kill companies that attempt it too slowly, and the clock is running at a speed that nobody in enterprise software has ever experienced. There's a second angle to this that most SaaS pocalypse analysis completely misses and it might matter even more than the pricing question. Think about what enterprise software companies really spend their money on. Engineering. Thousands of developers maintaining, updating, debugging, and extending one size fits all platforms designed to serve every possible customer configuration. DocuSign employs thousands of developers. That's the real cost of enterprise SaaS. Not the servers, not the sales team, but the army of engineers keeping a general purpose system alive for millions of users who each use it just a little bit differently. Now think about the opportunity cost. Every developer maintaining a legacy SaaS UI is a developer that is not building custom agentic workflows. Every sprint spent adding features to a one size fits all product is a sprint not spent rethinking the product for an agent first world. The companies that crashed this week, they're not just facing a pricing model crisis. They're facing a resource allocation crisis. Their most valuable people are maintaining the old thing when they need to be building the new thing desperately, And the transition requires doing both of those simultaneously within the same budget. This is where AgenTic software engineering changes the math in a way that most people haven't fully internalized. The cost of building software is falling to zero, not slowly and not theoretically. It's happening right now. Cursor shipped a system that generates a thousand code commits per hour with no human involvement. StrongDM published a production framework that states code must not be written by humans and code must not be reviewed by humans. That is not laughable in 2026. That is what is happening. A researcher at OpenAI spent $10,000 on codex tokens and automated his entire research workflow. These aren't demos. These are operational systems running in production. When building software cost starts to approach zero, the economics of buy versus build flip for the first time in a long time. The entire enterprise SaaS value proposition was predicated on the idea that it's cheaper to buy a general purpose tool than to build a custom one. That was true when software engineering was expensive and slow. When an AI agent can build a custom CRM in an afternoon, Calculus can reverse for some folks. Why pay Salesforce per seat to use for a tool designed to serve every company on earth when you could have a tool designed to serve your company? That is the promise of Vibe coding. That is the promise of Vibe engineering. Now you might wonder, is that how it actually works? The honest answer is it depends. And what it depends on is the hardest problem in the entire stack. It's harder than intelligence, it's harder than coding, and it's harder than pricing models. It depends on whether an AI agent can take the vague, implicit, half articulated thing a human actually wants and turn it not just into workable software, but very quickly into workable software with minimal sustainment costs. I've mentioned in a previous video that I am skeptical of this long term, especially for enterprises. Remember how we talked about companies hiring for a single ringable neck and paying for enterprise data access? Those remain edges. And anyone who wants to engineer their way forward into a cheaper CRM and not Salesforce must confront them. But they also must confront the articulation problem, and that is a real bottleneck, not just for SaaS companies, but for anyone who wants to build your own alternative. When a VP of sales says, I need a better way to track the pipeline, that sentence contains less than 5% of the information required to build a useful tool, frankly, less than 1%. The other 95 or 99% is buried in how the team actually works, what the unspoken conventions are, which exceptions matter and which don't, how this quarter's priorities differed from last, what better means in context. Now a skilled product manager will spend weeks extracting that information through interviews, observation, iteration, whether an agent can do the same thing, not just write the code, but understand the need deeply enough to write the right code is one of the biggest questions in software right now. I am skeptical that we're there yet, except in a few cases where you have extraordinary context availability across the enterprise. But agentic search is making progress on exactly that problem. Agents can explore context. They can ask clarifying questions, and they do now. And they can observe usage patterns and iteratively refine their understanding of what a human actually needs. So it's starting to come but the question is timing. For SaaS incumbents, this means the window has not yet closed. Their data edge and their accountability edge really do buy them time but only if they use that time to pivot to agentic first rather than bolting AI onto the existing UI and saying a prayer. Here's the thing that connects the SaaS pocalypse to your actual life. The same dynamic that is threatening enterprise SaaS companies, the difference between bolting AI on top of your existing approach and actually rethinking how you work from the ground up applies to every individual knowledge worker that is watching this video. If you're using ChatGPT to proofread emails, you could have written anyway. You are bolting AI on the top. If you're using Claude to summarize documents, you could have read anyway. You're bolting AI on the top. If you add Copilot to your IDE, but your development workflow is just the same as it was two years ago or even five months ago, you're bolting AI on the top. And just like the SaaS companies that are bolting AI features onto their existing products and hoping the market does not notice, you are decorating a structural problem in your own career rather than solving it. The pace right now is almost incomprehensible. Twenty minutes after Opus 4.6 dropped, codecs dropped. And codecs can ship entire desktop apps if properly prompted end to end from scratch. OpenAI isn't done with codecs though. They also launched Frontier in the same week as they dropped codecs 5.3. Frontier is an enterprise agent platform. So that means that it you can use Frontier to deploy enterprise agents securely across your entire data ecosystem. Remember when I said that context was evolving and agents were getting better at searching for context and learning from context clues how to build good software? Frontier is part of why. Claude Cowork has gone from an interesting demo to a $285,000,000,000 market event. If you ask an AI model right now to help you figure out how to use AI, you will get advice that's six months out of date. Even the AI cannot keep up with itself. This is what hyper acceleration feels like. And that word does sound like marketing. It sounds like hype. I will have people people in the comments who say I'm overhyping, but you gotta live through it. And then it sounds like another Tuesday. The gap between I use AI tools and I've rethought how I work around extremely rapidly evolving AI capabilities is all of our individual versions of what happened in the SaaS market. The first approach feels really productive. Bolting on AI lets you feel like you're keeping up. The second approach, fundamentally rethinking how you work from the ground up. That's what changes outcomes. And the window to make that transition keeps compressing every time there's a new update which frankly is every few days. If you haven't tried Opus 4.6 and experienced what a good million token context window feels like, they're already out of date. If you haven't used Cloud coworker, Codecs, or played around with OpenAI Frontier, please try them. Not because any one tool is the answer, but because the experience of using these systems changes your mental model of what's possible and your mental model of what is possible is the thing that determines whether you are bolting on AI in your own career and praying or whether you're rebuilding for an AI future that is coming like a tidal wave. The SaaS companies that survive the SaaS pocalypse will be the ones that rethink their architecture before the market makes them. The knowledge workers who thrive through the transition will be the ones who rethink their workflows before the boss forces them to. It's the same dynamic. It's the same urgency. It's just at a different scale. The per seat SaaS pricing model is broken. The data and accountability underneath it are not, and the same logic applies to you. Your skills, your domain expertise, the thing that makes you passionate about work, that didn't break. But the assumption that you can just take that to work and not use AI or only use AI a little bit or use AI in a chatbot, that is broken. And you're gonna need to look at how you fundamentally rethink your workflows to get there. And that is exactly what I'm putting together in the exercises that go with this video on my Substack. I've got a bunch of exercises that help you think about how you can take your unique role and essentially do the repricing, do the rebuilding that the SaaS companies are talking about, but at individual scale for your individual workflows. How you think about AI not as a bolt on, but as a fundamental shift. A 200 line markdown file did not decide who wins and loses, but it did compress a transition that everybody expected to take five years into a forty eight hour repricing event. And the repricing hasn't stopped. It's just getting started. The clock is ticking. It's not stopping. And I want you to make good decisions with your career, and we'll have to see if the SaaS companies make good decisions with their futures as companies. Because by the time you watch this, whatever the stock market price says, the AI that you hear about in this video will already be overtaken by some other news. That is how fast we're moving. AI isn't stopping, and we're all gonna have to dig in to get through this together. I know you can do it.",
+  "paragraphs": [
+    {
+      "start": 0.0,
+      "end": 22.915,
+      "speaker": 0,
+      "text": "A 200 line prompt just killed $285,000,000,000 in market value. That's right. A markdown file, not a product, not a platform. A markdown file from some product manager at Anthropic erased $285,000,000,000 in market cap on the stock market in just forty eight hours. On January 30, Anthropic released a set of plugins for Claude CoWork, its desktop AI tool."
+    },
+    {
+      "start": 22.915,
+      "end": 41.685,
+      "speaker": 0,
+      "text": "One of them handles legal contract review. It can triage NDAs, it can flag nonstandard clauses against a negotiation playbook and generate a ton of compliance summaries, the kind of work that until last week required a paralegal. Maybe a Westlaw subscription, something that had to do with billable hours. Right? The plugin is open source."
+    },
+    {
+      "start": 41.685,
+      "end": 54.185,
+      "speaker": 0,
+      "text": "Anyone can read it. And when people did, they found roughly 200 lines of structured markdown prompts. First year law school content dressed up with some clever workflow logic. It's basically a fancy prompt. It shipped with a little disclaimer."
+    },
+    {
+      "start": 54.600002,
+      "end": 68.76,
+      "speaker": 0,
+      "text": "All output should be reviewed by licensed attorneys. I'll bet. By Monday morning, Thomson Reuters had posted its biggest single day stock decline on record. It's down 16%. RELX, the parent company of LexisNexis, fell 14%."
+    },
+    {
+      "start": 68.76,
+      "end": 92.36,
+      "speaker": 0,
+      "text": "LegalZoom cratered at 20%. You get the idea. The selling spread to private equity from there. Ares management, KKR, and TPG all dropped about 10%. If AI compresses the cost of legal and financial analysis, then every firm charging premium fees for that analysis has a big, big margin problem because they can't charge that much, not next year and maybe not now."
+    },
+    {
+      "start": 92.36,
+      "end": 117.64,
+      "speaker": 0,
+      "text": "But here's what almost nobody is saying clearly enough. The markdown file itself is not the cause. It just revealed what has been going on for a while. The per seat SaaS licensing model, the financial bedrock that the entire enterprise software economy has been built on for twenty years, it was already cracking. The market just hadn't priced it in yet because, frankly, Wall Street doesn't understand AI that well."
+    },
+    {
+      "start": 117.78,
+      "end": 146.42,
+      "speaker": 0,
+      "text": "So this crash wasn't really about Claude, and we should be precise about what actually happened because the narrative has already crystallized into Anthropic crashed the software market. And that framing, while it's fun for headlines, misses the real structural story. What Anthropic actually shipped was a set of open source starter plugins, basically templates that any company can customize for their own workflows very easily. The legal plugin was one of 11. It was very competent, but it's not by itself revolutionary."
+    },
+    {
+      "start": 146.8,
+      "end": 182.895,
+      "speaker": 0,
+      "text": "Any decent prompt engineer could have assembled something comparable in an afternoon. So why did it move $285,000,000,000? Because the plug in made visible what the market has been quietly worrying about for months. If a text file can approximate the core workflow of a $60,000,000,000 revenue legal information industry, then that whole pricing model that the industry is built on has a big structural problem. Not a competitive problem, not a better product problem, a structural problem, the kind that doesn't get solved by shipping faster or hiring better salespeople."
+    },
+    {
+      "start": 183.275,
+      "end": 202.45,
+      "speaker": 0,
+      "text": "Thomson Reuters charges per seat. LexisNexis charges per seat. Westlaw charges per seat. The entire enterprise software economy from Salesforce to ServiceNow to Adobe runs on a model that says every human who touches this tool must pay a license fee. That's how these companies make their money."
+    },
+    {
+      "start": 202.45,
+      "end": 216.555,
+      "speaker": 0,
+      "text": "That's how they forecast their revenue. That's how Wall Street values them. That model works when humans are the bottleneck. It breaks when AI agents can do the work without logging in. And the signals were already everywhere if you knew where to look."
+    },
+    {
+      "start": 216.555,
+      "end": 241.045,
+      "speaker": 0,
+      "text": "The software industry's average forward price to earnings ratio has been compressing for months from x eight months ago to about x right when the sell off hit. That is the largest four month valuation compression since the 2002.com bust. Earning season has already been ugly. Software companies are missing revenue estimates at rates not seen since the post COVID correction. And broader tech continues to beat."
+    },
+    {
+      "start": 241.045,
+      "end": 252.88,
+      "speaker": 0,
+      "text": "The AI companies are fine. Right? The per seat model was under pressure before Anthropic shipped this little prompt file. So the cloud plug in, it didn't start the fire. It just showed everyone the building was already burning."
+    },
+    {
+      "start": 252.88,
+      "end": 276.355,
+      "speaker": 0,
+      "text": "Now I gotta be honest, plenty of smart people think that this sell off is a big overreaction. And they might be right about the sell off, but they would be wrong about what it means. Jensen Huang, speaking at the Cisco AI summit a few days before the crash, offered the strongest version of the counterargument. This notion that the software industry is in decline and being replaced by AI is the most illogical thing in the world, he said. And do you know why?"
+    },
+    {
+      "start": 277.0,
+      "end": 289.18,
+      "speaker": 0,
+      "text": "Huang's argument is very simple. AI doesn't replace software. AI runs on software. The more AI agents you deploy, the more software infrastructure you need. More databases, more APIs, more middleware, etcetera."
+    },
+    {
+      "start": 289.24,
+      "end": 302.755,
+      "speaker": 0,
+      "text": "So every AI agent that replaces a paralegal still needs Westlaw's data. It still needs a CRM. It still needs document management. If anything, AI should increase the total amount of software the economy uses. Jensen's not wrong."
+    },
+    {
+      "start": 302.755,
+      "end": 320.025,
+      "speaker": 0,
+      "text": "He's also not making the argument he thinks he's making. Nobody serious is arguing that the world needs less software. The argument is that the world no longer needs to pay for software the way it currently pays for software. So Jensen is defending the product, and he's right to do so. The market is attacking the pricing model."
+    },
+    {
+      "start": 320.185,
+      "end": 336.59998,
+      "speaker": 0,
+      "text": "Those are very different things and confusing them is how incumbents lose transitions they should have survived. Print media made this same mistake. Newspapers had content people wanted. They had local information, investigative journalism, weather. The Internet didn't make that content worthless."
+    },
+    {
+      "start": 336.97998,
+      "end": 359.95502,
+      "speaker": 0,
+      "text": "What the Internet did was destroy the access model, the idea that you had to buy a whole newspaper to get the one section you cared about, and that advertisers would pay premium rates to reach readers with no alternative. The content actually survived. The business model didn't, and that's why so many newspapers are in trouble. Print media's content did eventually get commoditized. Anybody can publish now."
+    },
+    {
+      "start": 360.37,
+      "end": 391.7,
+      "speaker": 0,
+      "text": "Software's content like proprietary databases, like structured workflows, decades of accumulated enterprise data, that hasn't been commoditized and it actually probably won't be. Thompson Reuters case law database isn't something a startup vibe codes in a weekend. Salesforce's customer relationship data is irreplaceable for many of their clients. Adobe's creative tool ecosystem has a pretty deep moat. So the data is safe, but the per seat access model for that data is not."
+    },
+    {
+      "start": 391.84003,
+      "end": 422.86002,
+      "speaker": 0,
+      "text": "And the companies whose entire financial identity is built around per seat licensing, they're about to face the hardest strategic question in enterprise software. How do you reprice your most valuable assets without destroying your revenue in the transition? Bank of America's Vivek Arya published the most revealing analysis of the crash. He called the sell off internally inconsistent, and he's right in a way that tells you something important about where the market's head is at right now on software and on AI. Investors were simultaneously running two thesis."
+    },
+    {
+      "start": 423.08002,
+      "end": 452.62997,
+      "speaker": 0,
+      "text": "Thesis one, AI infrastructure spending is unsustainable and the CapEx boom will collapse. This is two, AI adoption will be so powerful that it renders established software business models obsolete. Both cannot be true. If AI is powerful enough to crash $285,000,000,000 in software market cap, the infrastructure required to run that AI is underbuilt, not overbuilt. The SaaS pocalypse is paradoxically the strongest possible demand signal for continued AI infrastructure investment."
+    },
+    {
+      "start": 452.93,
+      "end": 468.3,
+      "speaker": 0,
+      "text": "And yet, both trades were profitable in different hands at different moments. The deep seek sell off punished NVIDIA last year. The SaaS correction punished Salesforce at almost the same time this year. Wall Street does not resolve logical contradictions. It rotates between them."
+    },
+    {
+      "start": 468.46,
+      "end": 490.115,
+      "speaker": 0,
+      "text": "One week, the market prices in an AI winter. The next, it prices in an AI revolution so total that legacy software can't survive it. The contradiction persists because no single firm needs to hold both positions. The market as a whole holds them, and the market as a whole has no obligation to be coherent. The incoherence is the real story, not the crash, the incoherence."
+    },
+    {
+      "start": 490.495,
+      "end": 517.305,
+      "speaker": 0,
+      "text": "But this is not really a story about stocks. It's bigger. While everyone was watching Thomson Reuters stock price, a quieter story broke that almost no one paid attention to, and that tells you about where we're all headed more than any given stock chart. KPMG, one of the big four accounting firms, pressured Grant Thornton UK, which is its own auditor, yes, the big four have to have auditors, to cut their audit fees. The demand was to pass on cost savings from AI."
+    },
+    {
+      "start": 517.305,
+      "end": 546.925,
+      "speaker": 0,
+      "text": "Grant Thornton initially resisted arguing that, quote, high quality audits rely heavily on expert human judgment and that fees reflect the cost of people. PMG's response per the Financial Times, lower your prices or we'll find a new auditor, and Grant Thornton blinked. PPMG's international audit fees dropped from $416,000 in 2024 to just $357,000 in 2025. They got a 14% discount. And that story matters to me more than Thomson Reuters' stock price, and I wanna tell you why."
+    },
+    {
+      "start": 546.925,
+      "end": 568.305,
+      "speaker": 0,
+      "text": "The SaaS pocalypse was just a market event. Traders were repricing stocks based on a change view of the future. They do that all the time. The KPMG negotiation is an operating event, a real company using AI as a lever in a real business negotiation to extract a real price reduction from a real from a real counterparty. The stock market repricing, that could reverse tomorrow."
+    },
+    {
+      "start": 568.52496,
+      "end": 579.165,
+      "speaker": 0,
+      "text": "The KPMG precedent won't. Think about what KPMG actually did. They didn't automate their audit. They didn't replace Grant Thornton with AI. They used the existence of AI."
+    },
+    {
+      "start": 579.165,
+      "end": 599.63495,
+      "speaker": 0,
+      "text": "The fact that everyone now know these now knows these tasks can be done more cheaply as a negotiating weapon. The threat isn't we'll replace you with AI. The threat is we both know AI changes the economics. So your old prices, they're not justified anymore. That's the playbook, and it works in every knowledge work fee negotiation now."
+    },
+    {
+      "start": 599.63495,
+      "end": 628.19495,
+      "speaker": 0,
+      "text": "If audit fees get renegotiated on the basis of AI cost savings, legal fees can be next, then consulting fees, then implementation fees, then design fees, then every form of pro services billing that currently scales only with the number of humans touching the work. You cannot use that scaling assumption. Lean teams are the future. The cascade doesn't require anyone to actually deploy AI at scale. It just requires buyers to point at that SaaS pocalypse and say, we know the world changed."
+    },
+    {
+      "start": 628.33496,
+      "end": 656.205,
+      "speaker": 0,
+      "text": "So let's talk about your assumption that the work is done per human, and let's talk about your rates. The big four are a sign of things to come. When they talk about not automating their own work, but just negotiating down the cost of services, that is a big operating mechanism that is going to shake the industry. It's not really the markdown files. It's fee negotiation leverage spreading like wildfires through the professional services economy like a crack through an iceberg."
+    },
+    {
+      "start": 656.345,
+      "end": 688.485,
+      "speaker": 0,
+      "text": "All of those assumptions that humans have to do the work are shattering. The software did not die. The data systems underneath enterprise software, Thomson Reuters case law databases, Salesforce's customer graphs, SAP's resource planning log SAP's resource planning logic, Adobe's creative workflow ecosystem, those all represent decades of accumulated structured proprietary information that no markdown file comes close to replacing. Those data systems will continue to exist. They must."
+    },
+    {
+      "start": 688.485,
+      "end": 712.54504,
+      "speaker": 0,
+      "text": "The economy runs on them. And there's a second edge that the market panic has really overlooked, the single ringable neck. Enterprises don't just buy Salesforce because it's the best possible CRM. You can make the case for a lot of other software that's better. They buy Salesforce because when something goes wrong at 2AM on the night before the board meeting, there's a phone number to call and a contract that says somebody is accountable."
+    },
+    {
+      "start": 713.085,
+      "end": 740.405,
+      "speaker": 0,
+      "text": "That accountability layer, the vendor relationship, the SLA, the legal liability, the pro services team that shows up when the system breaks, that is enormously valuable to big organizations, and no amount of AgenTic AI eliminates the need for it. If anything, the complexity of AI driven workflows makes that accountability even more important, not less. So the data edge is real. The accountability edge is real. What died is the pricing model that sits over the top."
+    },
+    {
+      "start": 740.405,
+      "end": 767.985,
+      "speaker": 0,
+      "text": "The idea that you can charge every human who touches the software a nice convenient fat per seat license fee and that your revenue scales linearly with that headcount. If one AI agent can do the research that previously required 10 paralegals with 10 separate Westlaw logins, Thomson Reuters doesn't lose the value of their data. They lose nine seats of revenue. The data becomes actually more important in an AI driven world. It's the fuel the agents run on, but the proceed access model, that's just broken."
+    },
+    {
+      "start": 767.985,
+      "end": 785.47,
+      "speaker": 0,
+      "text": "Here's what the investor thesis actually comes down to. The markdown file represents an existential threat if and only if these SaaS companies run business as usual. If they just bolt AI features on top of their existing UI, if they just add a chatbot, then the market's right. They're dead. The market is right to reprice them."
+    },
+    {
+      "start": 785.47,
+      "end": 817.235,
+      "speaker": 0,
+      "text": "The survival path is actually fundamentally different, and it's the one Thomson Reuters ironically is attempting with co counsel to pivot from a one size fits all interface that humans navigate to an agentic first architecture that AI agents navigate and charge for the value of the data and the accountability rather than the number of humans logging in. That's not a feature update. That's a rebuild of the product, the pricing, and the go to market. Simultaneously, while your stock price is cratering. Whether the incumbents pull it off is a $285,000,000,000 question, literally."
+    },
+    {
+      "start": 817.235,
+      "end": 845.63,
+      "speaker": 0,
+      "text": "They have the data edge. They have the ringable neck edge, and those are real. But pivoting from UI first to AgenTek first is the kind of architectural transformation that does tend to kill companies that attempt it too slowly, and the clock is running at a speed that nobody in enterprise software has ever experienced. There's a second angle to this that most SaaS pocalypse analysis completely misses and it might matter even more than the pricing question. Think about what enterprise software companies really spend their money on."
+    },
+    {
+      "start": 845.63,
+      "end": 868.45,
+      "speaker": 0,
+      "text": "Engineering. Thousands of developers maintaining, updating, debugging, and extending one size fits all platforms designed to serve every possible customer configuration. DocuSign employs thousands of developers. That's the real cost of enterprise SaaS. Not the servers, not the sales team, but the army of engineers keeping a general purpose system alive for millions of users who each use it just a little bit differently."
+    },
+    {
+      "start": 868.75,
+      "end": 892.16,
+      "speaker": 0,
+      "text": "Now think about the opportunity cost. Every developer maintaining a legacy SaaS UI is a developer that is not building custom agentic workflows. Every sprint spent adding features to a one size fits all product is a sprint not spent rethinking the product for an agent first world. The companies that crashed this week, they're not just facing a pricing model crisis. They're facing a resource allocation crisis."
+    },
+    {
+      "start": 892.38,
+      "end": 921.06,
+      "speaker": 0,
+      "text": "Their most valuable people are maintaining the old thing when they need to be building the new thing desperately, And the transition requires doing both of those simultaneously within the same budget. This is where AgenTic software engineering changes the math in a way that most people haven't fully internalized. The cost of building software is falling to zero, not slowly and not theoretically. It's happening right now. Cursor shipped a system that generates a thousand code commits per hour with no human involvement."
+    },
+    {
+      "start": 921.52,
+      "end": 939.5,
+      "speaker": 0,
+      "text": "StrongDM published a production framework that states code must not be written by humans and code must not be reviewed by humans. That is not laughable in 2026. That is what is happening. A researcher at OpenAI spent $10,000 on codex tokens and automated his entire research workflow. These aren't demos."
+    },
+    {
+      "start": 939.80005,
+      "end": 966.87,
+      "speaker": 0,
+      "text": "These are operational systems running in production. When building software cost starts to approach zero, the economics of buy versus build flip for the first time in a long time. The entire enterprise SaaS value proposition was predicated on the idea that it's cheaper to buy a general purpose tool than to build a custom one. That was true when software engineering was expensive and slow. When an AI agent can build a custom CRM in an afternoon, Calculus can reverse for some folks."
+    },
+    {
+      "start": 967.11,
+      "end": 982.65,
+      "speaker": 0,
+      "text": "Why pay Salesforce per seat to use for a tool designed to serve every company on earth when you could have a tool designed to serve your company? That is the promise of Vibe coding. That is the promise of Vibe engineering. Now you might wonder, is that how it actually works? The honest answer is it depends."
+    },
+    {
+      "start": 982.845,
+      "end": 1015.805,
+      "speaker": 0,
+      "text": "And what it depends on is the hardest problem in the entire stack. It's harder than intelligence, it's harder than coding, and it's harder than pricing models. It depends on whether an AI agent can take the vague, implicit, half articulated thing a human actually wants and turn it not just into workable software, but very quickly into workable software with minimal sustainment costs. I've mentioned in a previous video that I am skeptical of this long term, especially for enterprises. Remember how we talked about companies hiring for a single ringable neck and paying for enterprise data access?"
+    },
+    {
+      "start": 1016.185,
+      "end": 1059.84,
+      "speaker": 0,
+      "text": "Those remain edges. And anyone who wants to engineer their way forward into a cheaper CRM and not Salesforce must confront them. But they also must confront the articulation problem, and that is a real bottleneck, not just for SaaS companies, but for anyone who wants to build your own alternative. When a VP of sales says, I need a better way to track the pipeline, that sentence contains less than 5% of the information required to build a useful tool, frankly, less than 1%. The other 95 or 99% is buried in how the team actually works, what the unspoken conventions are, which exceptions matter and which don't, how this quarter's priorities differed from last, what better means in context."
+    },
+    {
+      "start": 1059.8999,
+      "end": 1090.62,
+      "speaker": 0,
+      "text": "Now a skilled product manager will spend weeks extracting that information through interviews, observation, iteration, whether an agent can do the same thing, not just write the code, but understand the need deeply enough to write the right code is one of the biggest questions in software right now. I am skeptical that we're there yet, except in a few cases where you have extraordinary context availability across the enterprise. But agentic search is making progress on exactly that problem. Agents can explore context. They can ask clarifying questions, and they do now."
+    },
+    {
+      "start": 1090.62,
+      "end": 1118.83,
+      "speaker": 0,
+      "text": "And they can observe usage patterns and iteratively refine their understanding of what a human actually needs. So it's starting to come but the question is timing. For SaaS incumbents, this means the window has not yet closed. Their data edge and their accountability edge really do buy them time but only if they use that time to pivot to agentic first rather than bolting AI onto the existing UI and saying a prayer. Here's the thing that connects the SaaS pocalypse to your actual life."
+    },
+    {
+      "start": 1118.97,
+      "end": 1144.9701,
+      "speaker": 0,
+      "text": "The same dynamic that is threatening enterprise SaaS companies, the difference between bolting AI on top of your existing approach and actually rethinking how you work from the ground up applies to every individual knowledge worker that is watching this video. If you're using ChatGPT to proofread emails, you could have written anyway. You are bolting AI on the top. If you're using Claude to summarize documents, you could have read anyway. You're bolting AI on the top."
+    },
+    {
+      "start": 1144.9701,
+      "end": 1176.93,
+      "speaker": 0,
+      "text": "If you add Copilot to your IDE, but your development workflow is just the same as it was two years ago or even five months ago, you're bolting AI on the top. And just like the SaaS companies that are bolting AI features onto their existing products and hoping the market does not notice, you are decorating a structural problem in your own career rather than solving it. The pace right now is almost incomprehensible. Twenty minutes after Opus 4.6 dropped, codecs dropped. And codecs can ship entire desktop apps if properly prompted end to end from scratch."
+    },
+    {
+      "start": 1177.15,
+      "end": 1201.28,
+      "speaker": 0,
+      "text": "OpenAI isn't done with codecs though. They also launched Frontier in the same week as they dropped codecs 5.3. Frontier is an enterprise agent platform. So that means that it you can use Frontier to deploy enterprise agents securely across your entire data ecosystem. Remember when I said that context was evolving and agents were getting better at searching for context and learning from context clues how to build good software?"
+    },
+    {
+      "start": 1201.58,
+      "end": 1221.245,
+      "speaker": 0,
+      "text": "Frontier is part of why. Claude Cowork has gone from an interesting demo to a $285,000,000,000 market event. If you ask an AI model right now to help you figure out how to use AI, you will get advice that's six months out of date. Even the AI cannot keep up with itself. This is what hyper acceleration feels like."
+    },
+    {
+      "start": 1221.245,
+      "end": 1240.245,
+      "speaker": 0,
+      "text": "And that word does sound like marketing. It sounds like hype. I will have people people in the comments who say I'm overhyping, but you gotta live through it. And then it sounds like another Tuesday. The gap between I use AI tools and I've rethought how I work around extremely rapidly evolving AI capabilities is all of our individual versions of what happened in the SaaS market."
+    },
+    {
+      "start": 1240.485,
+      "end": 1259.35,
+      "speaker": 0,
+      "text": "The first approach feels really productive. Bolting on AI lets you feel like you're keeping up. The second approach, fundamentally rethinking how you work from the ground up. That's what changes outcomes. And the window to make that transition keeps compressing every time there's a new update which frankly is every few days."
+    },
+    {
+      "start": 1259.35,
+      "end": 1306.74,
+      "speaker": 0,
+      "text": "If you haven't tried Opus 4.6 and experienced what a good million token context window feels like, they're already out of date. If you haven't used Cloud coworker, Codecs, or played around with OpenAI Frontier, please try them. Not because any one tool is the answer, but because the experience of using these systems changes your mental model of what's possible and your mental model of what is possible is the thing that determines whether you are bolting on AI in your own career and praying or whether you're rebuilding for an AI future that is coming like a tidal wave. The SaaS companies that survive the SaaS pocalypse will be the ones that rethink their architecture before the market makes them. The knowledge workers who thrive through the transition will be the ones who rethink their workflows before the boss forces them to."
+    },
+    {
+      "start": 1306.82,
+      "end": 1318.2,
+      "speaker": 0,
+      "text": "It's the same dynamic. It's the same urgency. It's just at a different scale. The per seat SaaS pricing model is broken. The data and accountability underneath it are not, and the same logic applies to you."
+    },
+    {
+      "start": 1318.34,
+      "end": 1357.5249,
+      "speaker": 0,
+      "text": "Your skills, your domain expertise, the thing that makes you passionate about work, that didn't break. But the assumption that you can just take that to work and not use AI or only use AI a little bit or use AI in a chatbot, that is broken. And you're gonna need to look at how you fundamentally rethink your workflows to get there. And that is exactly what I'm putting together in the exercises that go with this video on my Substack. I've got a bunch of exercises that help you think about how you can take your unique role and essentially do the repricing, do the rebuilding that the SaaS companies are talking about, but at individual scale for your individual workflows."
+    },
+    {
+      "start": 1357.5249,
+      "end": 1376.04,
+      "speaker": 0,
+      "text": "How you think about AI not as a bolt on, but as a fundamental shift. A 200 line markdown file did not decide who wins and loses, but it did compress a transition that everybody expected to take five years into a forty eight hour repricing event. And the repricing hasn't stopped. It's just getting started. The clock is ticking."
+    },
+    {
+      "start": 1376.18,
+      "end": 1402.17,
+      "speaker": 0,
+      "text": "It's not stopping. And I want you to make good decisions with your career, and we'll have to see if the SaaS companies make good decisions with their futures as companies. Because by the time you watch this, whatever the stock market price says, the AI that you hear about in this video will already be overtaken by some other news. That is how fast we're moving. AI isn't stopping, and we're all gonna have to dig in to get through this together."
+    },
+    {
+      "start": 1402.17,
+      "end": 1403.136,
+      "speaker": 0,
+      "text": "I know you can do it."
+    }
+  ],
+  "word_count": 4099,
+  "duration_seconds": 1403.14,
+  "speaker_count": 1,
+  "confidence": 0.9992
+}

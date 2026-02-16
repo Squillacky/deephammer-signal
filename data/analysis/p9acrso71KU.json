@@ -1,0 +1,104 @@
+{
+  "video_id": "p9acrso71KU",
+  "title": "Clawdbot to Moltbot to OpenClaw: The 72 Hours That Broke Everything (The Full Breakdown)",
+  "views": 0,
+  "model": "claude-sonnet-4-20250514",
+  "tokens_in": 5464,
+  "tokens_out": 868,
+  "elapsed_seconds": 19.6,
+  "analysis": {
+    "hook_anatomy": {
+      "first_5_seconds": "In hundreds of cities across the globe right now, developers are queuing up to buy Mac Minis, specifically to give an AI agent root access to their digital life",
+      "hook_type": "curiosity_gap",
+      "hook_strength": 9,
+      "emotional_trigger": "urgency and mystery around global tech phenomenon"
+    },
+    "narrative_structure": {
+      "framework": "investigation",
+      "act_breakdown": [
+        {
+          "act": 1,
+          "description": "Mystery setup - global Mac Mini buying frenzy and stock movements",
+          "timestamp_approx": "0:00-2:00"
+        },
+        {
+          "act": 2,
+          "description": "Product explanation and explosive growth story",
+          "timestamp_approx": "2:00-8:00"
+        },
+        {
+          "act": 3,
+          "description": "The 72-hour crisis - legal issues, security breaches, scams",
+          "timestamp_approx": "8:00-15:00"
+        },
+        {
+          "act": 4,
+          "description": "Deep technical security analysis and architectural flaws",
+          "timestamp_approx": "15:00-20:00"
+        },
+        {
+          "act": 5,
+          "description": "Why it's popular despite risks and future implications",
+          "timestamp_approx": "20:00-end"
+        }
+      ],
+      "tension_peaks": [
+        "crypto scammer account hijacking",
+        "security vulnerabilities discovered",
+        "prompt injection demonstrations"
+      ],
+      "payoff_delivery": "balanced verdict on whether to use it and prediction of VC-funded alternatives"
+    },
+    "rhetorical_devices": [
+      {
+        "device": "dramatic irony",
+        "example": "You own the agent layer, you rent the intelligence",
+        "frequency": "high"
+      },
+      {
+        "device": "parallel structure",
+        "example": "It's safe because it's neutered. Maultbot is useful because it's dangerous",
+        "frequency": "medium"
+      },
+      {
+        "device": "metaphor",
+        "example": "It's like Mad Max. It's messy. It's risky. It's exhilarating",
+        "frequency": "high"
+      }
+    ],
+    "virality_factors": {
+      "shareability_score": 8,
+      "controversy_level": 7,
+      "information_density": 9,
+      "emotional_arc": "mystery to excitement to fear to cautious optimism",
+      "target_audience": "developers and tech enthusiasts",
+      "click_triggers": [
+        "72 hours that broke everything",
+        "fastest growing GitHub project",
+        "security vulnerabilities",
+        "stock price movements"
+      ]
+    },
+    "content_patterns": {
+      "primary_topic": "AI agent security and adoption analysis",
+      "secondary_topics": [
+        "open source project growth",
+        "cryptocurrency scams",
+        "semiconductor economics",
+        "personal computing evolution"
+      ],
+      "expertise_signals": [
+        "detailed technical security analysis",
+        "stock market impact discussion",
+        "enterprise security comparisons"
+      ],
+      "unique_angle": "investigating the dark side of viral AI agent adoption through a security lens"
+    },
+    "key_quotes": [
+      "AI that actually does things. That's not marketing fluff. It is the core value prop and the core risk condensed into five words",
+      "we spent twenty years essentially building security boundaries around our OSes, and everything that we've done is designed to contain and limit scope of action. But agents require us to tear that down",
+      "Running multbot safely largely defeats the purpose of multbot because a sandboxed assistant can't access your real email and calendar"
+    ],
+    "one_line_summary": "A deep investigation into how MoltBot became GitHub's fastest-growing project while exposing massive security vulnerabilities that reveal the fundamental tension between AI agent capability and safety."
+  }
+}

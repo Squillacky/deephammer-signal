@@ -1,0 +1,107 @@
+{
+  "video_id": "h7dbkDcb3hA",
+  "title": "Task Queues Are Replacing Chat Interfaces. Here's Why (plus a Claude Cowork Demo)",
+  "views": 0,
+  "model": "claude-sonnet-4-20250514",
+  "tokens_in": 8002,
+  "tokens_out": 832,
+  "elapsed_seconds": 20.4,
+  "analysis": {
+    "hook_anatomy": {
+      "first_5_seconds": "Ten days. That's how long it took Anthropic to build and ship Claude CoWork after they noticed something their product team was not expecting.",
+      "hook_type": "bold_claim",
+      "hook_strength": 8,
+      "emotional_trigger": "curiosity about rapid development speed and unexpected discovery"
+    },
+    "narrative_structure": {
+      "framework": "investigation",
+      "act_breakdown": [
+        {
+          "act": 1,
+          "description": "The discovery - developers using coding tools for non-coding tasks",
+          "timestamp_approx": "0-2 minutes"
+        },
+        {
+          "act": 2,
+          "description": "The strategic implications - file system vs browser agents",
+          "timestamp_approx": "2-8 minutes"
+        },
+        {
+          "act": 3,
+          "description": "Anti-slop architecture and safety considerations",
+          "timestamp_approx": "8-12 minutes"
+        },
+        {
+          "act": 4,
+          "description": "Future predictions and live demonstration",
+          "timestamp_approx": "12-end"
+        }
+      ],
+      "tension_peaks": [
+        "67% increase in merge requests",
+        "Five and a half million view Twitter thread",
+        "Desktop native agent wars prediction"
+      ],
+      "payoff_delivery": "Live demonstration showing parallel task execution across multiple workflows"
+    },
+    "rhetorical_devices": [
+      {
+        "device": "concrete specificity",
+        "example": "67% increase in merge pull request per engineer per day",
+        "frequency": "high"
+      },
+      {
+        "device": "social proof",
+        "example": "Yana said that she had prototyped the product that she spent an entire year on with her team at Google in one coding session",
+        "frequency": "high"
+      },
+      {
+        "device": "metaphor",
+        "example": "This is a cruise missile aimed at the heart of knowledge work",
+        "frequency": "medium"
+      },
+      {
+        "device": "repetition",
+        "example": "Claude Code/Claude CoWork",
+        "frequency": "high"
+      }
+    ],
+    "virality_factors": {
+      "shareability_score": 7,
+      "controversy_level": 3,
+      "information_density": 9,
+      "emotional_arc": "curiosity -> excitement -> concern -> resolution -> demonstration",
+      "target_audience": "knowledge workers, developers, AI enthusiasts, business professionals",
+      "click_triggers": [
+        "10-day development timeline",
+        "67% productivity increase",
+        "Future of work predictions",
+        "Live demo"
+      ]
+    },
+    "content_patterns": {
+      "primary_topic": "Claude CoWork launch and implications for AI agents",
+      "secondary_topics": [
+        "productivity tools",
+        "enterprise software",
+        "AI safety",
+        "work automation",
+        "competitive analysis"
+      ],
+      "expertise_signals": [
+        "Detailed technical architecture knowledge",
+        "Enterprise software development timelines",
+        "AI safety considerations",
+        "Specific metrics and case studies"
+      ],
+      "unique_angle": "Focus on operational velocity as competitive advantage rather than just model capability"
+    },
+    "key_quotes": [
+      "Ten days from observation to launch",
+      "This is a cruise missile aimed at the heart of knowledge work",
+      "Engineers don't inflate those numbers for fun, guys",
+      "The AI race is no longer just about models. It's about who can observe user behavior, recognize what's actually working, and rapidly ship responses"
+    ],
+    "one_line_summary": "Anthropic's 10-day development of Claude CoWork reveals how AI-native companies are gaining competitive advantage through rapid iteration and general-purpose agent architecture that operates on file systems rather than just web interfaces."
+  }
+}

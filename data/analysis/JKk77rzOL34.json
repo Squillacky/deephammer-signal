@@ -1,0 +1,103 @@
+{
+  "video_id": "JKk77rzOL34",
+  "title": "Claude Opus 4.6: The Biggest AI Jump I've Covered--It's Not Close. (Here's What You Need to Know)",
+  "views": 0,
+  "model": "claude-sonnet-4-20250514",
+  "tokens_in": 7470,
+  "tokens_out": 846,
+  "elapsed_seconds": 19.5,
+  "analysis": {
+    "hook_anatomy": {
+      "first_5_seconds": "Claude Opus 4.6 just dropped and it changed the AI agent game again because 16 Claude Opus 4.6 agents just coded and set the record for the length of time that an AI agent has coded autonomously.",
+      "hook_type": "bold_claim",
+      "hook_strength": 9,
+      "emotional_trigger": "record-breaking achievement anxiety"
+    },
+    "narrative_structure": {
+      "framework": "problem_solution",
+      "act_breakdown": [
+        {
+          "act": 1,
+          "description": "Establishes unprecedented AI achievement - 2 weeks autonomous coding",
+          "timestamp_approx": "0-2 minutes"
+        },
+        {
+          "act": 2,
+          "description": "Deep dive into technical capabilities and enterprise applications",
+          "timestamp_approx": "2-8 minutes"
+        },
+        {
+          "act": 3,
+          "description": "Broader implications for work, organizations, and society",
+          "timestamp_approx": "8-12 minutes"
+        },
+        {
+          "act": 4,
+          "description": "Call to action and future preparation",
+          "timestamp_approx": "12-15 minutes"
+        }
+      ],
+      "tension_peaks": [
+        "30 minutes to 2 weeks in 12 months",
+        "500 zero-day vulnerabilities found",
+        "$5M revenue per employee ratios"
+      ],
+      "payoff_delivery": "actionable steps for adaptation in the final section"
+    },
+    "rhetorical_devices": [
+      {
+        "device": "hyperbolic contrast",
+        "example": "Thirty minutes to two weeks in twelve months. That is not a trend line. That is a phase change.",
+        "frequency": "high"
+      },
+      {
+        "device": "concrete specificity",
+        "example": "100,000 lines of code in Rust. It can build the Linux kernel on three different architectures. It passes 99% of a special quote torture test suite",
+        "frequency": "high"
+      },
+      {
+        "device": "metaphorical comparison",
+        "example": "The context window was like a filing cabinet with no index",
+        "frequency": "medium"
+      },
+      {
+        "device": "repetitive emphasis",
+        "example": "Welcome to February",
+        "frequency": "medium"
+      }
+    ],
+    "virality_factors": {
+      "shareability_score": 8,
+      "controversy_level": 6,
+      "information_density": 9,
+      "emotional_arc": "alarm to urgency to empowerment",
+      "target_audience": "tech professionals, knowledge workers, business leaders",
+      "click_triggers": [
+        "record-breaking AI achievement",
+        "job displacement anxiety",
+        "competitive advantage FOMO"
+      ]
+    },
+    "content_patterns": {
+      "primary_topic": "AI agent capabilities breakthrough",
+      "secondary_topics": [
+        "enterprise AI adoption",
+        "future of work",
+        "organizational transformation"
+      ],
+      "expertise_signals": [
+        "specific technical metrics",
+        "enterprise case studies",
+        "industry insider knowledge"
+      ],
+      "unique_angle": "focus on practical implications rather than just technical achievements"
+    },
+    "key_quotes": [
+      "That is not a trend line. That is a phase change. The entire world is shifting.",
+      "Your January mental model of what AI can and cannot do is already wrong.",
+      "The leverage across the board has shifted from execution to judgment across every function.",
+      "AI native companies are running at five to seven times that number"
+    ],
+    "one_line_summary": "Claude Opus 4.6 represents a massive leap in AI capabilities with agents coding autonomously for weeks, managing enterprise teams, and fundamentally reshaping the future of knowledge work."
+  }
+}

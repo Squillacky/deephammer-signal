@@ -1,0 +1,541 @@
+{
+  "video_id": "h7dbkDcb3hA",
+  "title": "Task Queues Are Replacing Chat Interfaces. Here's Why (plus a Claude Cowork Demo)",
+  "views": 0,
+  "sigma": 0,
+  "transcript": "Ten days. That's how long it took Anthropic to build and ship Claude CoWork after they noticed something their product team was not expecting. Developers were using their own coding tool to organize expense receipts. And, really, that story of the timeline matters more than anything else about the launch of Cloud Code work this week. It's not the expense receipts that are interesting. It's that the timeline reveals how anthropic and AI native organizations operate and how that operational velocity is becoming as much a competitive advantage as the models themselves. Here's what happened. Claude code launched as a terminal based agentic coding tool. Engineers used it to write software, debug production issues, refactor legacy code bases. The tool sat in the terminal because that's where developers live, and it worked because the underlying architecture, a sandbox agent that could read files, write files, execute plans, and loop humans in on progress, and turned out to be a very genuinely reliable model for production work. And so Anthropic's internal data shows that they saw a 67% increase in merge pull request per engineer per day. Engineers don't inflate those numbers for fun, guys. If engineers were using it, it was because it was useful. But then, the Claude Code product team noticed something in the usage patterns. People were not just writing code. They were pointing Claude Code at folders full of receipts, full of other things, full of photos, and asking it to produce expense spreadsheets to categorize the photos from the family vacation. You get the idea. They were asking it to organize messy downloads directories. They were using a coding tool for research synthesis, for transcript analysis, for file management. Anything that could be expressed as here are some files, here's what I want, make it happen. Now it's easy to think that a PM would treat this as scope creep. Right? Instead, Anthropic shipped the same underlying agent architecture you get with Claude Code. It's now wrapped in a UI that doesn't require anyone to be technical at all. So ten days from observation to launch. But here's what makes this more interesting than pure speed. People have been asking for exactly this capability for a while. And the moment Claude Coe demonstrated what Agintek AI could do in a terminal, nontechnical users started saying, I'd love to get access to something similar. I'm not a coder. But demand alone doesn't tell you whether the capability is actually going to work. And so what Anthropic was looking for was validation. And they got it both from their own product data, from developers already using cloud code for those tasks, but also from what they saw over the holidays with people using general purpose clogged code agents to do everything from growing their tomato plants, to building sensors for their homes, to writing and shipping production software, to writing and shipping their own to do list. Right? Things that would help you brief and get ready for your day. And so when they saw all of those different use cases emerging, it became undeniable that what they were sitting on was perhaps the first truly general purpose agent. Now compare their speed of response to classic enterprise software timelines where I mean, this is a big company. Right? Cloud code is running, in billions of dollars in run rate. A feature request would typically go through months of reviews before anyone write a line of code and obvious market demand would have to be proved and docs would have to be written. It's just not like that. They turned around and said we're gonna build it. They use Claude code to build it, and then they built co work in a matter of, like, a week and a half or so. This matters because the AI race is no longer just about models. It's about who can observe user behavior, recognize what's actually working, and rapidly ship responses before competitors jump in and grab the market. Now if you were anywhere near tech Twitter over the twenty twenty five holidays, FODCO just was all over your timeline. Engineers were posting about their productivity gains. Founders were building entire products in a weekend. There was an entire Google principal engineer thread that hit five and a half million views because, Yana said that she had prototyped the product that she spent an entire year on with her team at Google in one coding session with Cloud Code. Helen Lee Kupp, a mom who voice records ideas during morning walks, not a developer, was writing about how she figured out how to use cloud code anyway to build what she wanted. So it's not that cloud code was a secret, it's that the story was getting out and people were figuring out how to use the terminal despite themselves. And that's that's exactly the problem. Nontechnical users could see the capability. They could watch engineers accomplish in hours what used to take days. They could read the threads, but it takes a special kind of nontechnical user to jump into the terminal, look at the blinking cursor, not get intimidated, and just go with the text. The capability was really visible in testimonials from all kinds of people, but the access was not. And so what gradually emerged over the last month or two is a conviction that what was special about Claude Code wasn't the code part at all. The underlying capability, an AI that can read your files, understand your instructions, make a plan, and execute a multistep workflow, that works for almost anything expressible as a task with inputs and outputs. The code ended up being a constraint for branding and and insistence on something that isn't true for general purpose work. And so Cowork keeps all the best of Claude code, same architecture, and puts it in a friendlier package. You can point it at a folder using an interface. Right? You just click and point. You can describe what you want in a chat and walk away. It makes a plan. It shows you the plan. It executes the plan autonomously. It loops you in on the progress just like Claude code does, but you're not in the terminal. You can queue up multiple tasks and let Claude work through them in parallel, which feels less like a conversation and more like leaving multiple messages for a coworker. I think this is a very 2026 experience. Instead of saying, I'm gonna have a long running iterative chat. I'm gonna try and prompt everything exactly right. It's gonna look more like I have six different things I wanna do. I'm gonna type in six different messages and get six different threads going, and the agent is gonna work on all of them at once. And here's where the strategic picture gets interesting. Microsoft Copilot, it's a coding agent. It lives in the browser in the cloud. Google Workspace AI lives in the browser in the cloud. There are other tools. Do Anything is a great example of a new tool that came out in 2026. It lives in the browser. The interaction surface is web applications. The value proposition is we navigate websites on your behalf. Cowork is different because it operates at the file system level and can also use the browser. And so the interaction surface is the folders on your local machine plus anything it can touch on the web. And so the value proposition is that it processes the work artifacts that are already in your world and anything you can touch on the web. That's pretty powerful. In a sense, these aren't directly competing paradigms. They're complimentary, and I think Anthropic knows that. Cowork integrates with Claude and Chrome precisely in order to bridge those modes, And the file system first design reflects a specific thesis about where your leverage leverage as a worker actually lives. So browser agents are really constrained by the adversarial nature of the web. The web is designed for humans. Right? Sites can block them. CAPTCHAs can stop them. Login flows break them all the time. Every interaction ends up being mediated by interfaces that are designed for us, for people, maintained by companies that are interested in selling to people and that have really no particular interest at this time in making life easier for AI agents, although that may soon change. The error surface is enormous because you're navigating systems that you can't control. Now I will say these web agents have made enormous progress in getting more accurate at navigating the web and in reliably asking you to intervene. I see that across not just clogged code in Chrome, but across, the Atlas browser system, across Comet, across others as well. On the other hand, file system agents operate in territory that is entirely yours. Your files don't have bot detection. Your folders don't require authentication, do they? Most of them. The agent can read, it can write, it can execute with permissions that you explicitly grant. The environment is cooperative rather than adversarial, and that's a huge difference. The strategic implication is is simple, but it kind of pops out once you look at it. Browser agents will always be a little bit brittle for high stakes tasks because the web fights back. The web is adversarial because it needs to be from a security perspective. File system agents can be robust because your local machine is not adversarial. Your local machine is friendly. And so Anthropic's bet is that long term, most valuable knowledge work ends up living in your files. It lives in your docs, your spreadsheets, your notes, your receipts, your recordings, stuff that gets on your hard drive or in your Google Docs, And that processing these artifacts is where the real productivity leverage sits long term. Now, of course, they added in web, and you can use web browsing in CoWork. I tried it. It works real well. All you have to do is ask Cowork to do a task, make sure that you provided the appropriate logins directly in Chrome. You'll see a handy little yellow tab group that belongs to Claude, and you're off to the races. And so it's not like Claude is limiting web access. It's more that Claude is recognizing that the leverage that you see comes from owning a friendly place where work happens, which is your file system. It's a non adversarial space, and Claude can touch it really easy. This may force Microsoft's hand. Neuron Daily came out with a prediction that Microsoft will have to launch a desktop native general agent to compete, and I actually think they're underselling it. I think everybody is going to launch a desktop native general agent in 2026. This is the year of the desktop native general agent wars because everybody is going to get disintermediated by this handy little effectively inbox where you can do work. Wouldn't you rather be in one place and say, hey, get me my briefing for the day. Hey, get me these three metrics I care about from my dashboards. Hey. Make sure my presentation is ready and give it a final polish, and it's all done in one place. You don't have to switch between PowerPoint and Tableau and whatever else you're doing. And Claude, for the first time, offers that kind of promise with Cowork. That's why this is such a huge deal. This is a cruise missile aimed at the heart of knowledge work. Everything you do as a knowledge worker is about file ins and file outs. It's about modifying information. And for a long time in 2024 and 2025, you chatted with something, and then you had to take those inputs and outputs and put them somewhere else. Well, not anymore. You can actually directly interact with them. Now the immediate question that I have and I bet you have is how does that relate to the concerns about sloppy work? We've had a lot of concerns, especially in late twenty twenty five, about people just throwing AI work that they didn't check and didn't pay attention to kind of over the wall and saying good luck y'all. And that's not good citizenship. It's not good to build a community. It doesn't help you in your career. It's slop and it's bad. And so the interesting thing about co work is that it's designed to be anti slop. It doesn't mean you can't misuse it. You can. But it's designed to be more thoughtful. And this deserves some unpacking because the anti slop thesis is much more interesting than I first thought. And the more I dug into co work, the more I saw, like, that thoughtfulness underneath. Ultimately, the work slop crisis isn't about AI being bad at writing. It's about AI making it frictionless to produce very passable looking output that shifts the cognitive burden that the real thinking you need to do just down the street. And so the person receiving the AI generated memo now has to do the thinking the sender skipped. If you generate your PRD and don't look at it, the engineer has to think about it instead of the PM. And the result is communication that looks like work, but functions as a tax on attention. In fact, a study by better up quantified this at nearly two hours spent per piece of work slot received, which adds up to a lot of lost productivity. And so Co Works design makes several specific bets against this pattern. First, unlike a chat, the core output of this tool is an artifact, not a text blob. When you ask Coerc to process, say, your expense receipts into a spreadsheet, it produces an Excel file with working vlookup formulas and conditional formatting, not a CSV that you then clean up, not markdown you have to copy paste. The output is the deliverable. This matters because WorkSlop typically lives in the gap between the AI generated draft and the usable work product. Cowork tries to close that gap by producing files that don't require the human cleanup pass. Essentially, if you can define your intent well enough, Claude Code, now dressed up as Claude Cowork, is able to do a good enough job that it will get it all the way done. And, of course, that depends on your ability to define intent well, which is one of the key skills of 2026. The second thing to call out here is that the architecture is borrowed from a context where slop is immediately fatal. So cloud code users are typically writing software, often production software. If the output required constant cleanup, engineers just would drop it. And, yes, there's a lot of talk about how you ship more and more code, you ship more and more bugs. But at the end of the day, you can still use AI tooling to review large masses of AI produced code and get very high quality code results in late twenty twenty five, early twenty twenty six. Tropic's thesis is the same architecture that produces trustworthy code can produce trustworthy knowledge work, anti slop knowledge work. And so software engineers who already trust cloud code enough to ship what it produces are going to be okay using Cloud Code work for knowledge work, and more importantly, the rest of us will too. Because even if we haven't had the experience of shipping code with Cloud Code, we can understand the idea that the difference between slop and not slop is about work quality and we can appreciate the finished and polished quality of the artifacts you tend to get out of co work. The third anti slop element is subtle but important. Claude code keeps you in the steering loop rather than the editing loop. So the interface is designed around task delegation with very visible progress visibility. You literally see check marks down the side. Right? It's not about prompt response cycles. You don't just prompt it and see more text appear. It's very different. You describe an outcome, and Claude makes a plan. You see the plan. You can redirect mid execution. One of the nice things that Claude added here is that you can send a message to the agent in the middle of executing and just hit a button that's marked queue, and the agent will pick up your piece of context and add it into the long running work without interrupting itself. This fix fixes a major blind spot that I've seen in a lot of AI tooling where you have to either interrupt a valuable piece of work or wait for it to finish to add an important piece of context, not with Claude Cowork. As long as you can describe an outcome, Claude can write the plan. You can see the plan. You can redirect it. And the cognitive work that we're describing here is on you, but it happens at the top. It's the steering work. It's articulating what you want. It's not downstream cleaning up what you got. As long as you can tell Claude Cowork about what you want to build, whether that's expense reports or whether that's give me specific feedback on my day ahead or give me a productivity review based on looking at my calendar or please help me prepare a presentation for this upcoming meeting, Claude Claude Cowork can do it. I will also say that the file system sandbox forces specificity, and this is a safety feature with Cowork that I really like. You cannot vaguely ask CoWork to help with your expenses. You must point it at real folders that contain real files. You manually touch the mouse and say, please add expenses folder. And this constraint means that AI must operate on real work artifacts rather than just generating content randomly in a vacuum. And so the input is really concrete, and the output has something that it can attach to and be faithful to. This is gonna reduce hallucination. Right? And there's a fifth element that's easy to miss. The task queue model changes the social dynamics of AI assisted work. I'll get into that. In chat based AI, you're constantly prompting, you're evaluating, you're prompting, you're evaluating, you go back and forth. The rhythm encourages fast and shallow interactions. It's like batting a tennis ball back and forth. You prompt. You get text. You prompt again. Co Works design encourages deeper thought fundamentally, and I love that. It's deeper thought about what you want, deeper thought about what you're willing to step away from and let Claude Cowork work on for a while. The AI is not waiting for your next message anymore. It's executing a plan. And this shifts the cognitive load from, well, what do I prompt next? Do I remember the right prompt? To what do I actually need done? Which is by far the more interesting question. And that requires thoughtfulness, and thoughtfulness is anti slop. Now will all of this actually solve work slop? Look. It's too early to tell. It just came out this week. But I will say this is the kind of anti slop architecture we need to see more of. And I think the critical piece to call out is that we are seeing finally a jump into general purpose agents for nontechnical mainstream users. We are gonna see a lot more of these in 2026. Clearly, Claude got out in front with their initial release here. I expect releases from ChatGPT soon. I expect releases from Google soon. I expect releases from Microsoft. And that brings us to a safety piece. How safe are these? I get asked this a lot. I think Anthropic safety disclosure is worth looking at a little bit more closely because it's unusually direct, and the implications cut in multiple directions. Anthropic warns about prompt injections right upfront, and prompt injections are attempts by attackers to alter Claude Co Works plans through content it might encounter on the Internet. Right? And what they share is that they've built defenses against prompt injections, but that they cannot promise that it will always be safe. One of the things that's really interesting is it looks like they've built an intermediation summary zone or summary workflow stage between raw Internet input received and what the agent gets to complete the task. And if that's the case, it gives us a sense of how the anthropic team is thinking about multilayered defenses from prompt injection. You can imagine it is a series of walls, and you're trying to keep hostile bots and hostile actors out. Now in the short term, cautious enterprises may decide that having anything that has any kind of prompt injection warning is too risky. But to be honest with you, I kind of doubt it because the promise of accelerating tasks that used to take days into hours or less is so great that people are willing to trade that. And in practice, as someone who has used Claude Code a fair bit and now Claude Cowork, the instincts that that AI has are pretty solid. It asks you for permission when it wants us to touch, website pages and interact with them. It does not tend to take actions like login or payment unless you specifically authorize it. And even then, on high consequence actions like payments, it usually says you gotta do this. I can't do this. And so the constitutional AI principles that embody Claude or that the anthropic team built into Claude help Claude to make good common sense choices on the wild and wooly world of the Internet. And the file system sandbox also helps. If you are mounting files locally, you are putting them into not the direct file access. So I wanna be clear. If you're not a technical person, a sandbox is a safe and secure container. You can put a file and copy it. Like, let's say I have my receipts. The actual receipt file can be in my receipts folder on my hard drive. If I copy that folder into my sandbox, I I can manipulate it. I can do things on it, and it's very low consequence because it's a copy in a secure container, and I'm not touching the core folder. Now this doesn't mean that cloud can't touch your folder. So just because it mounts it in a sandbox and containerizes the folder, doesn't mean that it doesn't touch your hard drives. It does. It can make changes in your files. That's part of the value. But the idea that you are securely containerizing the area of operation matters a lot when you are building with a tool that is even potentially vulnerable. Let me dive just a little bit more into a story I mentioned briefly earlier about Yana Dogen, who is a Google principal engineer and who posted that post that got five and a half million views. What she she said is I'm not joking, and this isn't funny. We've been trying to build distributed agent orchestrators at Google since last year. There are various options. Not everyone's aligned. I gave Claude Code a description of the problem. It generated what we actually built last year in an hour. Now it turned out that what Claude Code built was a prototype. It wasn't the full production code, so I don't wanna overstate the promise. But the idea that Claude Code could look at the problem set, independently derive the correct solution, and begin to prototype that quickly should not be underestimated. That is still a very meaningful step toward what we would typically describe as artificial general intelligence. This same power is now available in Cowork. Cowork is just a nice user interface dressed up over clogged code. And so if you've had friends that are telling you that you ought to use claud code and you've been resisting, and you've been like, I'm not in the terminal. I'm not a terminal person. Use claud co work. Now it's in it's in the max plan for now, and that's only available for individuals. It's in alpha. I get all of that. It's in the expensive plan. But Anthropic historically brings that down market. It brings it into enterprise. It brings it into teams quickly. I am trying to give you a sense of what you can actually do with it so that you can understand it. At the end of this video, I'll go ahead and share my screen and show you what Claude Cowork looks like so that you can get a look for yourself. But before we do that, I wanna get a little bit at where this tells us we're going in 2026. First, I think that this is showing us that the chatbot was a transitional form. It existed because LLMs could generate text before they could reliably execute plans. I don't think that's true anymore. Claude Code has proved that agentic execution works for not just software engineering, but for everything else. And if that hypothesis holds, several things follow, each with implications that go much deeper than you might think at first. One, I think task queues are going to start to replace chat interfaces in 2026, and that's much more than a UX change. The co work model where you queue up tasks, you let Claude work through them in parallel, you get notified on completion, is closer to, like, an email or a ticketing system than a conversation. But the deeper shift is in the relationship between the human and the AI. So chat interfaces position the AI as a respondent. You ask, it answers, you ask again. Task queues, you're positioning AI as your worker. You're delegating, it executes, and you're reviewing. So this is not about asynchronous versus synchronous interaction. It's about whether you're having a conversation with AI or whether you're managing it like an employee. And the management framing changes what kinds of tasks feel appropriate to delegate, like how much context you provide upfront, how you evaluate the output. People manage workers differently than they converse with their advisers. And as AI interfaces shift toward the management model, I would expect behaviors the way we use AI to shift accordingly. I will also call out that verification is going to continue to be a scarce skill because the second order effects on organizational structure of everybody having Cloud cowork have not been at all thought through. When AI can execute multi step workflows in parallel across multiple threads across the whole organization, the bottleneck shifts to knowing whether the output is correct and whether you formed the task correctly. And so what John and Dogen was talking about applies more broadly. The tool amplifies people who already know what they're doing while potentially misleading people who don't. This is why I think AI fluency is such a critical piece in 2026. Consider what this means for how teams are structured. Junior roles have traditionally served as execution layers. You give them well defined tasks. They complete them, and senior people review them. If AI handles execution, we're going to continue to see pressure on junior roles where firms that are not creative are gonna say they don't need juniors, and firms that are more creative are gonna say we need AI native juniors who can teach us new patterns of work. Organizations that figure out how to develop domain expertise and anti slot mechanisms in an AI augmented environment are gonna have a very significant competitive advantage over those that accidentally eliminate their career development pipeline by over indexing toward killing their junior roles. And that's gonna be a temptation because the power of this system, it's it's addictive. It's hard to step away from. You can do so much with the CoWork interface. I do think the file system and browser convergence is inevitable, but I think the way we get there matters. So Cowork plus Browser Automation covers most knowledge work in principle. The next step is gonna be seamless handoffs. How do you start with files, push to web services, pull results back to files, share with a colleague? And so the integration points between file system agents, browser agents, things are gonna break there. Right? I know that my, Google Calendar has trouble recognizing Claude even when I give it a login. It works sometimes. It doesn't work other times. I think that might be intentional on Google's part. Whoever is able to solve these integration problems is going to be able to get a unified execution layer in place that is going to unlock a ton of productivity. My guess is that this will probably take a little bit longer than people expect because the hard part at isn't actually making any type of agent work in isolation. It's making them work together reliably enough that users don't have to think about what mode they're in. If I were looking to the future, I'd watch for two big signals coming up. The first is how quickly does Microsoft or OpenAI or Google respond? If any of them ship something quickly in the next two to three weeks, the next month, my sense is not only does the competitive picture remain open, but everyone is seeing signals on the ground that this is enough the future of work that we have to pay attention. The other thing I would look at is unit economics and pricing. We are in a world where we are blessed with so many models. Do we start to see Claude Co work come down into more economical price tiers, perhaps with a dumber model, perhaps with a limited number of max queries, whatever it takes. But, ultimately, I think the incentive to give everyone these kinds of tools is very, very high as long as users read us, can show that we use those tools to produce useful product. And as long as companies can be confident that the touches on the web and the integrations with the rest of corporate systems are secure enough that the work can be usefully done and usefully saved and secured. I fully expect those kinks to be worked out as Anthropic inevitably pulls this over into their teams and enterprise products. I'll close with a deeper question. What happens when a product team can observe a user behavior on Monday and ship a fully fledged product on Thursday? That's the thing that keeps sticking with me. I started with that, and that's what I keep thinking. This took ten days, and now I'm gonna show you. It took ten days to build. They built it with Cloud Code. What does it look like? This is Cloud Cowork. Alright. So you see that they're giving you affordances right away. And by affordances, I mean, they're giving you suggestions. You can create a file. You can crunch data. You can make a prototype. You can send a message. Yes. It will really send a message. You can prep for the day or organize files. That's just a preview. This progress bar is where you'll see actual plans getting made. The artifacts are where you'll see, artifacts getting made. Let me give you an example of what we can do here. Please produce, a full PowerPoint describing the launch of Claude Co work. Conduct all the necessary research you need to do so and when it's complete please place it in my downloads folder as a .pbtx file. Then I go work in files, I'll choose a different folder this is my downloads file I'll just stick it in there I'm gonna allow Claude Code to change it, and that's it. I can just tell it to go. And you see how it's starting to get into this, and you're gonna start to see a pro plan and progress bar being made here. Notice that it's using those Claude skills that we've talked about before. Now we have a plan. It's already researched Claude CoWork and launch details. Check. I can ask a question or recommend a change right here if I wanna change that. I can read the PPTX skill documentation. So I can change that. I can change the way it makes a PowerPoint skill, and it's now designing a presentation structure and aesthetic. I can give it feedback on the aesthetic right here. You see how different this is from the chat? Like, before in chat, I would have to say, wait. Stop. I want it to be, like, a modern presentation or whatever. Not anymore. I can just adjust it. It's giving me a suggested slide structure. I'm gonna say, please add a note on non obvious insights and implications to the presentation, and it's right in the middle of the work. I'm just gonna throw it in. You can see where it's working. It's got a shared CSS file it's working on here. You can see the context it's got. It's now starting to create the slides. It's using these skills. I love the transparency here. And if you wanna do something else, you can immediately just slip over here, open up a new task, and say, can you please look at my Google Calendar and give me an assessment, how busy I am and what would be the most useful shift to my daily ritual, to prepare more effectively for work. And this is all happening in the background. Right? Like, the Claude is still working in the other presentation. So I can just start this one off. And I have my Google Calendar open to my browser, and so it's looking through. It's gonna continue doing its analysis. We can go back. Now we're gonna check back in on all of the work that Claude is doing here. So you see I have multiple agents running. Right? Like, Claude is doing research on the one hand for Claude CoWork to build me a slide presentation. The same Claude CoWork is also working to analyze my schedule. And you can do five, six, seven of these. Now I asked it to be a little bit impersonal here so I don't reveal people's private information, but it talks about how I'm busy, how I need to defend my breakfast block, how I need to defend my wake window, and having a time to work out every day is a good thing. Now I will be honest with you. These are not absolutely groundbreaking assessments. The thing that's significant is I can do this in parallel looking at the calendar, come back, it'll give me assessments all at the same time that it's working on my PowerPoint deck. And that's the thing I want you to grab a hold of. And, yes, it's still working on the PowerPoint deck. And you can actually see all of the different artifacts it's created along the way. Let's start a new task. Now I'm looking for duplicate files and downloads. Where have I got extra files? And it has access to the downloads folder because I gave it access to that at the beginning of the task and it's just running. So working on creating slides, I'll go back to the Downloads. This is what the future of work looks like. It looks like jumping back and forth, between these different tabs. You can see what it's running here. Now it's copying the PowerPoint to the Downloads folder. Look at that. It gives me my all the things it looked at and it's gonna give me a handy little button to open in PowerPoint. And yes it really did make the PowerPoint it made it from scratch. You can go through and see the key fold features, you can see how it works, real world use cases, availability and pricing, non obvious insights which it added in the middle bigger picture this was all done in the middle of doing three or four other things. This is what I mean by the future is here so if you're not using co work you are missing out on the future of work. I've got a whole guide on it up on Substack. This is by far the most exciting thing that I have seen come out of AI in the last few months. And I know that people will accuse me of being hypey, But the thing that makes this a breakthrough is that it's not for technical people. Everybody can use this. There was no code in what I described. It was just asking the the AI agent to do stuff for you, and it did it. And I know not everybody has the max plan, so I wanted to give you that hands on look so you could see it for yourself. Good luck out there, and get on Claude CoWork. It's totally worth it.",
+  "paragraphs": [
+    {
+      "start": 0.24,
+      "end": 19.605,
+      "speaker": 0,
+      "text": "Ten days. That's how long it took Anthropic to build and ship Claude CoWork after they noticed something their product team was not expecting. Developers were using their own coding tool to organize expense receipts. And, really, that story of the timeline matters more than anything else about the launch of Cloud Code work this week. It's not the expense receipts that are interesting."
+    },
+    {
+      "start": 19.744999,
+      "end": 56.265,
+      "speaker": 0,
+      "text": "It's that the timeline reveals how anthropic and AI native organizations operate and how that operational velocity is becoming as much a competitive advantage as the models themselves. Here's what happened. Claude code launched as a terminal based agentic coding tool. Engineers used it to write software, debug production issues, refactor legacy code bases. The tool sat in the terminal because that's where developers live, and it worked because the underlying architecture, a sandbox agent that could read files, write files, execute plans, and loop humans in on progress, and turned out to be a very genuinely reliable model for production work."
+    },
+    {
+      "start": 56.93,
+      "end": 78.015,
+      "speaker": 0,
+      "text": "And so Anthropic's internal data shows that they saw a 67% increase in merge pull request per engineer per day. Engineers don't inflate those numbers for fun, guys. If engineers were using it, it was because it was useful. But then, the Claude Code product team noticed something in the usage patterns. People were not just writing code."
+    },
+    {
+      "start": 78.155,
+      "end": 101.885,
+      "speaker": 0,
+      "text": "They were pointing Claude Code at folders full of receipts, full of other things, full of photos, and asking it to produce expense spreadsheets to categorize the photos from the family vacation. You get the idea. They were asking it to organize messy downloads directories. They were using a coding tool for research synthesis, for transcript analysis, for file management. Anything that could be expressed as here are some files, here's what I want, make it happen."
+    },
+    {
+      "start": 102.025,
+      "end": 120.51,
+      "speaker": 0,
+      "text": "Now it's easy to think that a PM would treat this as scope creep. Right? Instead, Anthropic shipped the same underlying agent architecture you get with Claude Code. It's now wrapped in a UI that doesn't require anyone to be technical at all. So ten days from observation to launch."
+    },
+    {
+      "start": 120.65,
+      "end": 141.81,
+      "speaker": 0,
+      "text": "But here's what makes this more interesting than pure speed. People have been asking for exactly this capability for a while. And the moment Claude Coe demonstrated what Agintek AI could do in a terminal, nontechnical users started saying, I'd love to get access to something similar. I'm not a coder. But demand alone doesn't tell you whether the capability is actually going to work."
+    },
+    {
+      "start": 141.81,
+      "end": 183.6,
+      "speaker": 0,
+      "text": "And so what Anthropic was looking for was validation. And they got it both from their own product data, from developers already using cloud code for those tasks, but also from what they saw over the holidays with people using general purpose clogged code agents to do everything from growing their tomato plants, to building sensors for their homes, to writing and shipping production software, to writing and shipping their own to do list. Right? Things that would help you brief and get ready for your day. And so when they saw all of those different use cases emerging, it became undeniable that what they were sitting on was perhaps the first truly general purpose agent."
+    },
+    {
+      "start": 183.85501,
+      "end": 203.68,
+      "speaker": 0,
+      "text": "Now compare their speed of response to classic enterprise software timelines where I mean, this is a big company. Right? Cloud code is running, in billions of dollars in run rate. A feature request would typically go through months of reviews before anyone write a line of code and obvious market demand would have to be proved and docs would have to be written. It's just not like that."
+    },
+    {
+      "start": 203.68,
+      "end": 229.56,
+      "speaker": 0,
+      "text": "They turned around and said we're gonna build it. They use Claude code to build it, and then they built co work in a matter of, like, a week and a half or so. This matters because the AI race is no longer just about models. It's about who can observe user behavior, recognize what's actually working, and rapidly ship responses before competitors jump in and grab the market. Now if you were anywhere near tech Twitter over the twenty twenty five holidays, FODCO just was all over your timeline."
+    },
+    {
+      "start": 229.62,
+      "end": 266.66,
+      "speaker": 0,
+      "text": "Engineers were posting about their productivity gains. Founders were building entire products in a weekend. There was an entire Google principal engineer thread that hit five and a half million views because, Yana said that she had prototyped the product that she spent an entire year on with her team at Google in one coding session with Cloud Code. Helen Lee Kupp, a mom who voice records ideas during morning walks, not a developer, was writing about how she figured out how to use cloud code anyway to build what she wanted. So it's not that cloud code was a secret, it's that the story was getting out and people were figuring out how to use the terminal despite themselves."
+    },
+    {
+      "start": 266.66,
+      "end": 290.55002,
+      "speaker": 0,
+      "text": "And that's that's exactly the problem. Nontechnical users could see the capability. They could watch engineers accomplish in hours what used to take days. They could read the threads, but it takes a special kind of nontechnical user to jump into the terminal, look at the blinking cursor, not get intimidated, and just go with the text. The capability was really visible in testimonials from all kinds of people, but the access was not."
+    },
+    {
+      "start": 290.55002,
+      "end": 326.915,
+      "speaker": 0,
+      "text": "And so what gradually emerged over the last month or two is a conviction that what was special about Claude Code wasn't the code part at all. The underlying capability, an AI that can read your files, understand your instructions, make a plan, and execute a multistep workflow, that works for almost anything expressible as a task with inputs and outputs. The code ended up being a constraint for branding and and insistence on something that isn't true for general purpose work. And so Cowork keeps all the best of Claude code, same architecture, and puts it in a friendlier package. You can point it at a folder using an interface."
+    },
+    {
+      "start": 326.915,
+      "end": 333.635,
+      "speaker": 0,
+      "text": "Right? You just click and point. You can describe what you want in a chat and walk away. It makes a plan. It shows you the plan."
+    },
+    {
+      "start": 333.635,
+      "end": 353.61002,
+      "speaker": 0,
+      "text": "It executes the plan autonomously. It loops you in on the progress just like Claude code does, but you're not in the terminal. You can queue up multiple tasks and let Claude work through them in parallel, which feels less like a conversation and more like leaving multiple messages for a coworker. I think this is a very 2026 experience. Instead of saying, I'm gonna have a long running iterative chat."
+    },
+    {
+      "start": 353.61002,
+      "end": 370.61002,
+      "speaker": 0,
+      "text": "I'm gonna try and prompt everything exactly right. It's gonna look more like I have six different things I wanna do. I'm gonna type in six different messages and get six different threads going, and the agent is gonna work on all of them at once. And here's where the strategic picture gets interesting. Microsoft Copilot, it's a coding agent."
+    },
+    {
+      "start": 370.61002,
+      "end": 382.07,
+      "speaker": 0,
+      "text": "It lives in the browser in the cloud. Google Workspace AI lives in the browser in the cloud. There are other tools. Do Anything is a great example of a new tool that came out in 2026. It lives in the browser."
+    },
+    {
+      "start": 382.365,
+      "end": 407.44,
+      "speaker": 0,
+      "text": "The interaction surface is web applications. The value proposition is we navigate websites on your behalf. Cowork is different because it operates at the file system level and can also use the browser. And so the interaction surface is the folders on your local machine plus anything it can touch on the web. And so the value proposition is that it processes the work artifacts that are already in your world and anything you can touch on the web."
+    },
+    {
+      "start": 407.525,
+      "end": 432.29,
+      "speaker": 0,
+      "text": "That's pretty powerful. In a sense, these aren't directly competing paradigms. They're complimentary, and I think Anthropic knows that. Cowork integrates with Claude and Chrome precisely in order to bridge those modes, And the file system first design reflects a specific thesis about where your leverage leverage as a worker actually lives. So browser agents are really constrained by the adversarial nature of the web."
+    },
+    {
+      "start": 432.29,
+      "end": 438.86502,
+      "speaker": 0,
+      "text": "The web is designed for humans. Right? Sites can block them. CAPTCHAs can stop them. Login flows break them all the time."
+    },
+    {
+      "start": 438.92502,
+      "end": 476.93,
+      "speaker": 0,
+      "text": "Every interaction ends up being mediated by interfaces that are designed for us, for people, maintained by companies that are interested in selling to people and that have really no particular interest at this time in making life easier for AI agents, although that may soon change. The error surface is enormous because you're navigating systems that you can't control. Now I will say these web agents have made enormous progress in getting more accurate at navigating the web and in reliably asking you to intervene. I see that across not just clogged code in Chrome, but across, the Atlas browser system, across Comet, across others as well. On the other hand, file system agents operate in territory that is entirely yours."
+    },
+    {
+      "start": 477.23,
+      "end": 492.855,
+      "speaker": 0,
+      "text": "Your files don't have bot detection. Your folders don't require authentication, do they? Most of them. The agent can read, it can write, it can execute with permissions that you explicitly grant. The environment is cooperative rather than adversarial, and that's a huge difference."
+    },
+    {
+      "start": 493.155,
+      "end": 516.92,
+      "speaker": 0,
+      "text": "The strategic implication is is simple, but it kind of pops out once you look at it. Browser agents will always be a little bit brittle for high stakes tasks because the web fights back. The web is adversarial because it needs to be from a security perspective. File system agents can be robust because your local machine is not adversarial. Your local machine is friendly."
+    },
+    {
+      "start": 517.285,
+      "end": 542.67004,
+      "speaker": 0,
+      "text": "And so Anthropic's bet is that long term, most valuable knowledge work ends up living in your files. It lives in your docs, your spreadsheets, your notes, your receipts, your recordings, stuff that gets on your hard drive or in your Google Docs, And that processing these artifacts is where the real productivity leverage sits long term. Now, of course, they added in web, and you can use web browsing in CoWork. I tried it. It works real well."
+    },
+    {
+      "start": 542.73004,
+      "end": 574.385,
+      "speaker": 0,
+      "text": "All you have to do is ask Cowork to do a task, make sure that you provided the appropriate logins directly in Chrome. You'll see a handy little yellow tab group that belongs to Claude, and you're off to the races. And so it's not like Claude is limiting web access. It's more that Claude is recognizing that the leverage that you see comes from owning a friendly place where work happens, which is your file system. It's a non adversarial space, and Claude can touch it really easy."
+    },
+    {
+      "start": 574.385,
+      "end": 608.52496,
+      "speaker": 0,
+      "text": "This may force Microsoft's hand. Neuron Daily came out with a prediction that Microsoft will have to launch a desktop native general agent to compete, and I actually think they're underselling it. I think everybody is going to launch a desktop native general agent in 2026. This is the year of the desktop native general agent wars because everybody is going to get disintermediated by this handy little effectively inbox where you can do work. Wouldn't you rather be in one place and say, hey, get me my briefing for the day."
+    },
+    {
+      "start": 608.58496,
+      "end": 626.07,
+      "speaker": 0,
+      "text": "Hey, get me these three metrics I care about from my dashboards. Hey. Make sure my presentation is ready and give it a final polish, and it's all done in one place. You don't have to switch between PowerPoint and Tableau and whatever else you're doing. And Claude, for the first time, offers that kind of promise with Cowork."
+    },
+    {
+      "start": 626.39496,
+      "end": 648.28,
+      "speaker": 0,
+      "text": "That's why this is such a huge deal. This is a cruise missile aimed at the heart of knowledge work. Everything you do as a knowledge worker is about file ins and file outs. It's about modifying information. And for a long time in 2024 and 2025, you chatted with something, and then you had to take those inputs and outputs and put them somewhere else."
+    },
+    {
+      "start": 648.58,
+      "end": 671.74,
+      "speaker": 0,
+      "text": "Well, not anymore. You can actually directly interact with them. Now the immediate question that I have and I bet you have is how does that relate to the concerns about sloppy work? We've had a lot of concerns, especially in late twenty twenty five, about people just throwing AI work that they didn't check and didn't pay attention to kind of over the wall and saying good luck y'all. And that's not good citizenship."
+    },
+    {
+      "start": 671.95996,
+      "end": 686.915,
+      "speaker": 0,
+      "text": "It's not good to build a community. It doesn't help you in your career. It's slop and it's bad. And so the interesting thing about co work is that it's designed to be anti slop. It doesn't mean you can't misuse it."
+    },
+    {
+      "start": 687.055,
+      "end": 702.89996,
+      "speaker": 0,
+      "text": "You can. But it's designed to be more thoughtful. And this deserves some unpacking because the anti slop thesis is much more interesting than I first thought. And the more I dug into co work, the more I saw, like, that thoughtfulness underneath. Ultimately, the work slop crisis isn't about AI being bad at writing."
+    },
+    {
+      "start": 702.89996,
+      "end": 739.065,
+      "speaker": 0,
+      "text": "It's about AI making it frictionless to produce very passable looking output that shifts the cognitive burden that the real thinking you need to do just down the street. And so the person receiving the AI generated memo now has to do the thinking the sender skipped. If you generate your PRD and don't look at it, the engineer has to think about it instead of the PM. And the result is communication that looks like work, but functions as a tax on attention. In fact, a study by better up quantified this at nearly two hours spent per piece of work slot received, which adds up to a lot of lost productivity."
+    },
+    {
+      "start": 739.205,
+      "end": 772.60504,
+      "speaker": 0,
+      "text": "And so Co Works design makes several specific bets against this pattern. First, unlike a chat, the core output of this tool is an artifact, not a text blob. When you ask Coerc to process, say, your expense receipts into a spreadsheet, it produces an Excel file with working vlookup formulas and conditional formatting, not a CSV that you then clean up, not markdown you have to copy paste. The output is the deliverable. This matters because WorkSlop typically lives in the gap between the AI generated draft and the usable work product."
+    },
+    {
+      "start": 772.66504,
+      "end": 803.685,
+      "speaker": 0,
+      "text": "Cowork tries to close that gap by producing files that don't require the human cleanup pass. Essentially, if you can define your intent well enough, Claude Code, now dressed up as Claude Cowork, is able to do a good enough job that it will get it all the way done. And, of course, that depends on your ability to define intent well, which is one of the key skills of 2026. The second thing to call out here is that the architecture is borrowed from a context where slop is immediately fatal. So cloud code users are typically writing software, often production software."
+    },
+    {
+      "start": 803.825,
+      "end": 846.91003,
+      "speaker": 0,
+      "text": "If the output required constant cleanup, engineers just would drop it. And, yes, there's a lot of talk about how you ship more and more code, you ship more and more bugs. But at the end of the day, you can still use AI tooling to review large masses of AI produced code and get very high quality code results in late twenty twenty five, early twenty twenty six. Tropic's thesis is the same architecture that produces trustworthy code can produce trustworthy knowledge work, anti slop knowledge work. And so software engineers who already trust cloud code enough to ship what it produces are going to be okay using Cloud Code work for knowledge work, and more importantly, the rest of us will too."
+    },
+    {
+      "start": 846.97003,
+      "end": 875.75,
+      "speaker": 0,
+      "text": "Because even if we haven't had the experience of shipping code with Cloud Code, we can understand the idea that the difference between slop and not slop is about work quality and we can appreciate the finished and polished quality of the artifacts you tend to get out of co work. The third anti slop element is subtle but important. Claude code keeps you in the steering loop rather than the editing loop. So the interface is designed around task delegation with very visible progress visibility. You literally see check marks down the side."
+    },
+    {
+      "start": 875.75,
+      "end": 884.84503,
+      "speaker": 0,
+      "text": "Right? It's not about prompt response cycles. You don't just prompt it and see more text appear. It's very different. You describe an outcome, and Claude makes a plan."
+    },
+    {
+      "start": 884.84503,
+      "end": 916.645,
+      "speaker": 0,
+      "text": "You see the plan. You can redirect mid execution. One of the nice things that Claude added here is that you can send a message to the agent in the middle of executing and just hit a button that's marked queue, and the agent will pick up your piece of context and add it into the long running work without interrupting itself. This fix fixes a major blind spot that I've seen in a lot of AI tooling where you have to either interrupt a valuable piece of work or wait for it to finish to add an important piece of context, not with Claude Cowork. As long as you can describe an outcome, Claude can write the plan."
+    },
+    {
+      "start": 916.865,
+      "end": 925.52,
+      "speaker": 0,
+      "text": "You can see the plan. You can redirect it. And the cognitive work that we're describing here is on you, but it happens at the top. It's the steering work. It's articulating what you want."
+    },
+    {
+      "start": 925.52,
+      "end": 961.68,
+      "speaker": 0,
+      "text": "It's not downstream cleaning up what you got. As long as you can tell Claude Cowork about what you want to build, whether that's expense reports or whether that's give me specific feedback on my day ahead or give me a productivity review based on looking at my calendar or please help me prepare a presentation for this upcoming meeting, Claude Claude Cowork can do it. I will also say that the file system sandbox forces specificity, and this is a safety feature with Cowork that I really like. You cannot vaguely ask CoWork to help with your expenses. You must point it at real folders that contain real files."
+    },
+    {
+      "start": 961.68,
+      "end": 979.385,
+      "speaker": 0,
+      "text": "You manually touch the mouse and say, please add expenses folder. And this constraint means that AI must operate on real work artifacts rather than just generating content randomly in a vacuum. And so the input is really concrete, and the output has something that it can attach to and be faithful to. This is gonna reduce hallucination. Right?"
+    },
+    {
+      "start": 979.445,
+      "end": 996.31494,
+      "speaker": 0,
+      "text": "And there's a fifth element that's easy to miss. The task queue model changes the social dynamics of AI assisted work. I'll get into that. In chat based AI, you're constantly prompting, you're evaluating, you're prompting, you're evaluating, you go back and forth. The rhythm encourages fast and shallow interactions."
+    },
+    {
+      "start": 996.31494,
+      "end": 1004.95496,
+      "speaker": 0,
+      "text": "It's like batting a tennis ball back and forth. You prompt. You get text. You prompt again. Co Works design encourages deeper thought fundamentally, and I love that."
+    },
+    {
+      "start": 1004.95496,
+      "end": 1024.655,
+      "speaker": 0,
+      "text": "It's deeper thought about what you want, deeper thought about what you're willing to step away from and let Claude Cowork work on for a while. The AI is not waiting for your next message anymore. It's executing a plan. And this shifts the cognitive load from, well, what do I prompt next? Do I remember the right prompt?"
+    },
+    {
+      "start": 1024.655,
+      "end": 1034.495,
+      "speaker": 0,
+      "text": "To what do I actually need done? Which is by far the more interesting question. And that requires thoughtfulness, and thoughtfulness is anti slop. Now will all of this actually solve work slop? Look."
+    },
+    {
+      "start": 1034.495,
+      "end": 1055.795,
+      "speaker": 0,
+      "text": "It's too early to tell. It just came out this week. But I will say this is the kind of anti slop architecture we need to see more of. And I think the critical piece to call out is that we are seeing finally a jump into general purpose agents for nontechnical mainstream users. We are gonna see a lot more of these in 2026."
+    },
+    {
+      "start": 1055.935,
+      "end": 1066.8301,
+      "speaker": 0,
+      "text": "Clearly, Claude got out in front with their initial release here. I expect releases from ChatGPT soon. I expect releases from Google soon. I expect releases from Microsoft. And that brings us to a safety piece."
+    },
+    {
+      "start": 1066.8301,
+      "end": 1087.915,
+      "speaker": 0,
+      "text": "How safe are these? I get asked this a lot. I think Anthropic safety disclosure is worth looking at a little bit more closely because it's unusually direct, and the implications cut in multiple directions. Anthropic warns about prompt injections right upfront, and prompt injections are attempts by attackers to alter Claude Co Works plans through content it might encounter on the Internet. Right?"
+    },
+    {
+      "start": 1087.915,
+      "end": 1130.38,
+      "speaker": 0,
+      "text": "And what they share is that they've built defenses against prompt injections, but that they cannot promise that it will always be safe. One of the things that's really interesting is it looks like they've built an intermediation summary zone or summary workflow stage between raw Internet input received and what the agent gets to complete the task. And if that's the case, it gives us a sense of how the anthropic team is thinking about multilayered defenses from prompt injection. You can imagine it is a series of walls, and you're trying to keep hostile bots and hostile actors out. Now in the short term, cautious enterprises may decide that having anything that has any kind of prompt injection warning is too risky."
+    },
+    {
+      "start": 1130.6,
+      "end": 1168.585,
+      "speaker": 0,
+      "text": "But to be honest with you, I kind of doubt it because the promise of accelerating tasks that used to take days into hours or less is so great that people are willing to trade that. And in practice, as someone who has used Claude Code a fair bit and now Claude Cowork, the instincts that that AI has are pretty solid. It asks you for permission when it wants us to touch, website pages and interact with them. It does not tend to take actions like login or payment unless you specifically authorize it. And even then, on high consequence actions like payments, it usually says you gotta do this."
+    },
+    {
+      "start": 1168.585,
+      "end": 1192.1849,
+      "speaker": 0,
+      "text": "I can't do this. And so the constitutional AI principles that embody Claude or that the anthropic team built into Claude help Claude to make good common sense choices on the wild and wooly world of the Internet. And the file system sandbox also helps. If you are mounting files locally, you are putting them into not the direct file access. So I wanna be clear."
+    },
+    {
+      "start": 1192.1849,
+      "end": 1207.6799,
+      "speaker": 0,
+      "text": "If you're not a technical person, a sandbox is a safe and secure container. You can put a file and copy it. Like, let's say I have my receipts. The actual receipt file can be in my receipts folder on my hard drive. If I copy that folder into my sandbox, I I can manipulate it."
+    },
+    {
+      "start": 1207.6799,
+      "end": 1225.395,
+      "speaker": 0,
+      "text": "I can do things on it, and it's very low consequence because it's a copy in a secure container, and I'm not touching the core folder. Now this doesn't mean that cloud can't touch your folder. So just because it mounts it in a sandbox and containerizes the folder, doesn't mean that it doesn't touch your hard drives. It does. It can make changes in your files."
+    },
+    {
+      "start": 1225.395,
+      "end": 1254.125,
+      "speaker": 0,
+      "text": "That's part of the value. But the idea that you are securely containerizing the area of operation matters a lot when you are building with a tool that is even potentially vulnerable. Let me dive just a little bit more into a story I mentioned briefly earlier about Yana Dogen, who is a Google principal engineer and who posted that post that got five and a half million views. What she she said is I'm not joking, and this isn't funny. We've been trying to build distributed agent orchestrators at Google since last year."
+    },
+    {
+      "start": 1254.125,
+      "end": 1265.96,
+      "speaker": 0,
+      "text": "There are various options. Not everyone's aligned. I gave Claude Code a description of the problem. It generated what we actually built last year in an hour. Now it turned out that what Claude Code built was a prototype."
+    },
+    {
+      "start": 1265.96,
+      "end": 1292.22,
+      "speaker": 0,
+      "text": "It wasn't the full production code, so I don't wanna overstate the promise. But the idea that Claude Code could look at the problem set, independently derive the correct solution, and begin to prototype that quickly should not be underestimated. That is still a very meaningful step toward what we would typically describe as artificial general intelligence. This same power is now available in Cowork. Cowork is just a nice user interface dressed up over clogged code."
+    },
+    {
+      "start": 1292.22,
+      "end": 1305.98,
+      "speaker": 0,
+      "text": "And so if you've had friends that are telling you that you ought to use claud code and you've been resisting, and you've been like, I'm not in the terminal. I'm not a terminal person. Use claud co work. Now it's in it's in the max plan for now, and that's only available for individuals. It's in alpha."
+    },
+    {
+      "start": 1305.98,
+      "end": 1314.2749,
+      "speaker": 0,
+      "text": "I get all of that. It's in the expensive plan. But Anthropic historically brings that down market. It brings it into enterprise. It brings it into teams quickly."
+    },
+    {
+      "start": 1314.2749,
+      "end": 1342.875,
+      "speaker": 0,
+      "text": "I am trying to give you a sense of what you can actually do with it so that you can understand it. At the end of this video, I'll go ahead and share my screen and show you what Claude Cowork looks like so that you can get a look for yourself. But before we do that, I wanna get a little bit at where this tells us we're going in 2026. First, I think that this is showing us that the chatbot was a transitional form. It existed because LLMs could generate text before they could reliably execute plans."
+    },
+    {
+      "start": 1343.095,
+      "end": 1373.425,
+      "speaker": 0,
+      "text": "I don't think that's true anymore. Claude Code has proved that agentic execution works for not just software engineering, but for everything else. And if that hypothesis holds, several things follow, each with implications that go much deeper than you might think at first. One, I think task queues are going to start to replace chat interfaces in 2026, and that's much more than a UX change. The co work model where you queue up tasks, you let Claude work through them in parallel, you get notified on completion, is closer to, like, an email or a ticketing system than a conversation."
+    },
+    {
+      "start": 1373.885,
+      "end": 1388.7,
+      "speaker": 0,
+      "text": "But the deeper shift is in the relationship between the human and the AI. So chat interfaces position the AI as a respondent. You ask, it answers, you ask again. Task queues, you're positioning AI as your worker. You're delegating, it executes, and you're reviewing."
+    },
+    {
+      "start": 1388.92,
+      "end": 1416.4601,
+      "speaker": 0,
+      "text": "So this is not about asynchronous versus synchronous interaction. It's about whether you're having a conversation with AI or whether you're managing it like an employee. And the management framing changes what kinds of tasks feel appropriate to delegate, like how much context you provide upfront, how you evaluate the output. People manage workers differently than they converse with their advisers. And as AI interfaces shift toward the management model, I would expect behaviors the way we use AI to shift accordingly."
+    },
+    {
+      "start": 1416.52,
+      "end": 1453.355,
+      "speaker": 0,
+      "text": "I will also call out that verification is going to continue to be a scarce skill because the second order effects on organizational structure of everybody having Cloud cowork have not been at all thought through. When AI can execute multi step workflows in parallel across multiple threads across the whole organization, the bottleneck shifts to knowing whether the output is correct and whether you formed the task correctly. And so what John and Dogen was talking about applies more broadly. The tool amplifies people who already know what they're doing while potentially misleading people who don't. This is why I think AI fluency is such a critical piece in 2026."
+    },
+    {
+      "start": 1453.4149,
+      "end": 1475.745,
+      "speaker": 0,
+      "text": "Consider what this means for how teams are structured. Junior roles have traditionally served as execution layers. You give them well defined tasks. They complete them, and senior people review them. If AI handles execution, we're going to continue to see pressure on junior roles where firms that are not creative are gonna say they don't need juniors, and firms that are more creative are gonna say we need AI native juniors who can teach us new patterns of work."
+    },
+    {
+      "start": 1475.985,
+      "end": 1506.17,
+      "speaker": 0,
+      "text": "Organizations that figure out how to develop domain expertise and anti slot mechanisms in an AI augmented environment are gonna have a very significant competitive advantage over those that accidentally eliminate their career development pipeline by over indexing toward killing their junior roles. And that's gonna be a temptation because the power of this system, it's it's addictive. It's hard to step away from. You can do so much with the CoWork interface. I do think the file system and browser convergence is inevitable, but I think the way we get there matters."
+    },
+    {
+      "start": 1506.365,
+      "end": 1524.15,
+      "speaker": 0,
+      "text": "So Cowork plus Browser Automation covers most knowledge work in principle. The next step is gonna be seamless handoffs. How do you start with files, push to web services, pull results back to files, share with a colleague? And so the integration points between file system agents, browser agents, things are gonna break there. Right?"
+    },
+    {
+      "start": 1524.15,
+      "end": 1542.165,
+      "speaker": 0,
+      "text": "I know that my, Google Calendar has trouble recognizing Claude even when I give it a login. It works sometimes. It doesn't work other times. I think that might be intentional on Google's part. Whoever is able to solve these integration problems is going to be able to get a unified execution layer in place that is going to unlock a ton of productivity."
+    },
+    {
+      "start": 1542.545,
+      "end": 1577.19,
+      "speaker": 0,
+      "text": "My guess is that this will probably take a little bit longer than people expect because the hard part at isn't actually making any type of agent work in isolation. It's making them work together reliably enough that users don't have to think about what mode they're in. If I were looking to the future, I'd watch for two big signals coming up. The first is how quickly does Microsoft or OpenAI or Google respond? If any of them ship something quickly in the next two to three weeks, the next month, my sense is not only does the competitive picture remain open, but everyone is seeing signals on the ground that this is enough the future of work that we have to pay attention."
+    },
+    {
+      "start": 1577.33,
+      "end": 1617.115,
+      "speaker": 0,
+      "text": "The other thing I would look at is unit economics and pricing. We are in a world where we are blessed with so many models. Do we start to see Claude Co work come down into more economical price tiers, perhaps with a dumber model, perhaps with a limited number of max queries, whatever it takes. But, ultimately, I think the incentive to give everyone these kinds of tools is very, very high as long as users read us, can show that we use those tools to produce useful product. And as long as companies can be confident that the touches on the web and the integrations with the rest of corporate systems are secure enough that the work can be usefully done and usefully saved and secured."
+    },
+    {
+      "start": 1617.415,
+      "end": 1638.0399,
+      "speaker": 0,
+      "text": "I fully expect those kinks to be worked out as Anthropic inevitably pulls this over into their teams and enterprise products. I'll close with a deeper question. What happens when a product team can observe a user behavior on Monday and ship a fully fledged product on Thursday? That's the thing that keeps sticking with me. I started with that, and that's what I keep thinking."
+    },
+    {
+      "start": 1638.1,
+      "end": 1645.8351,
+      "speaker": 0,
+      "text": "This took ten days, and now I'm gonna show you. It took ten days to build. They built it with Cloud Code. What does it look like? This is Cloud Cowork."
+    },
+    {
+      "start": 1645.895,
+      "end": 1653.255,
+      "speaker": 0,
+      "text": "Alright. So you see that they're giving you affordances right away. And by affordances, I mean, they're giving you suggestions. You can create a file. You can crunch data."
+    },
+    {
+      "start": 1653.255,
+      "end": 1660.22,
+      "speaker": 0,
+      "text": "You can make a prototype. You can send a message. Yes. It will really send a message. You can prep for the day or organize files."
+    },
+    {
+      "start": 1660.36,
+      "end": 1678.1849,
+      "speaker": 0,
+      "text": "That's just a preview. This progress bar is where you'll see actual plans getting made. The artifacts are where you'll see, artifacts getting made. Let me give you an example of what we can do here. Please produce, a full PowerPoint describing the launch of Claude Co work."
+    },
+    {
+      "start": 1678.325,
+      "end": 1711.145,
+      "speaker": 0,
+      "text": "Conduct all the necessary research you need to do so and when it's complete please place it in my downloads folder as a .pbtx file. Then I go work in files, I'll choose a different folder this is my downloads file I'll just stick it in there I'm gonna allow Claude Code to change it, and that's it. I can just tell it to go. And you see how it's starting to get into this, and you're gonna start to see a pro plan and progress bar being made here. Notice that it's using those Claude skills that we've talked about before."
+    },
+    {
+      "start": 1711.285,
+      "end": 1722.6101,
+      "speaker": 0,
+      "text": "Now we have a plan. It's already researched Claude CoWork and launch details. Check. I can ask a question or recommend a change right here if I wanna change that. I can read the PPTX skill documentation."
+    },
+    {
+      "start": 1723.2301,
+      "end": 1736.5851,
+      "speaker": 0,
+      "text": "So I can change that. I can change the way it makes a PowerPoint skill, and it's now designing a presentation structure and aesthetic. I can give it feedback on the aesthetic right here. You see how different this is from the chat? Like, before in chat, I would have to say, wait."
+    },
+    {
+      "start": 1736.5851,
+      "end": 1743.62,
+      "speaker": 0,
+      "text": "Stop. I want it to be, like, a modern presentation or whatever. Not anymore. I can just adjust it. It's giving me a suggested slide structure."
+    },
+    {
+      "start": 1744.24,
+      "end": 1759.845,
+      "speaker": 0,
+      "text": "I'm gonna say, please add a note on non obvious insights and implications to the presentation, and it's right in the middle of the work. I'm just gonna throw it in. You can see where it's working. It's got a shared CSS file it's working on here. You can see the context it's got."
+    },
+    {
+      "start": 1759.845,
+      "end": 1789.075,
+      "speaker": 0,
+      "text": "It's now starting to create the slides. It's using these skills. I love the transparency here. And if you wanna do something else, you can immediately just slip over here, open up a new task, and say, can you please look at my Google Calendar and give me an assessment, how busy I am and what would be the most useful shift to my daily ritual, to prepare more effectively for work. And this is all happening in the background."
+    },
+    {
+      "start": 1789.075,
+      "end": 1798.62,
+      "speaker": 0,
+      "text": "Right? Like, the Claude is still working in the other presentation. So I can just start this one off. And I have my Google Calendar open to my browser, and so it's looking through. It's gonna continue doing its analysis."
+    },
+    {
+      "start": 1798.62,
+      "end": 1811.775,
+      "speaker": 0,
+      "text": "We can go back. Now we're gonna check back in on all of the work that Claude is doing here. So you see I have multiple agents running. Right? Like, Claude is doing research on the one hand for Claude CoWork to build me a slide presentation."
+    },
+    {
+      "start": 1811.995,
+      "end": 1835.1951,
+      "speaker": 0,
+      "text": "The same Claude CoWork is also working to analyze my schedule. And you can do five, six, seven of these. Now I asked it to be a little bit impersonal here so I don't reveal people's private information, but it talks about how I'm busy, how I need to defend my breakfast block, how I need to defend my wake window, and having a time to work out every day is a good thing. Now I will be honest with you. These are not absolutely groundbreaking assessments."
+    },
+    {
+      "start": 1835.255,
+      "end": 1851.85,
+      "speaker": 0,
+      "text": "The thing that's significant is I can do this in parallel looking at the calendar, come back, it'll give me assessments all at the same time that it's working on my PowerPoint deck. And that's the thing I want you to grab a hold of. And, yes, it's still working on the PowerPoint deck. And you can actually see all of the different artifacts it's created along the way. Let's start a new task."
+    },
+    {
+      "start": 1851.9099,
+      "end": 1865.765,
+      "speaker": 0,
+      "text": "Now I'm looking for duplicate files and downloads. Where have I got extra files? And it has access to the downloads folder because I gave it access to that at the beginning of the task and it's just running. So working on creating slides, I'll go back to the Downloads. This is what the future of work looks like."
+    },
+    {
+      "start": 1865.765,
+      "end": 1880.48,
+      "speaker": 0,
+      "text": "It looks like jumping back and forth, between these different tabs. You can see what it's running here. Now it's copying the PowerPoint to the Downloads folder. Look at that. It gives me my all the things it looked at and it's gonna give me a handy little button to open in PowerPoint."
+    },
+    {
+      "start": 1880.62,
+      "end": 1914.26,
+      "speaker": 0,
+      "text": "And yes it really did make the PowerPoint it made it from scratch. You can go through and see the key fold features, you can see how it works, real world use cases, availability and pricing, non obvious insights which it added in the middle bigger picture this was all done in the middle of doing three or four other things. This is what I mean by the future is here so if you're not using co work you are missing out on the future of work. I've got a whole guide on it up on Substack. This is by far the most exciting thing that I have seen come out of AI in the last few months."
+    },
+    {
+      "start": 1914.26,
+      "end": 1934.089,
+      "speaker": 0,
+      "text": "And I know that people will accuse me of being hypey, But the thing that makes this a breakthrough is that it's not for technical people. Everybody can use this. There was no code in what I described. It was just asking the the AI agent to do stuff for you, and it did it. And I know not everybody has the max plan, so I wanted to give you that hands on look so you could see it for yourself."
+    },
+    {
+      "start": 1934.1489,
+      "end": 1937.609,
+      "speaker": 0,
+      "text": "Good luck out there, and get on Claude CoWork. It's totally worth it."
+    }
+  ],
+  "word_count": 6195,
+  "duration_seconds": 1938.14,
+  "speaker_count": 1,
+  "confidence": 0.9991
+}
